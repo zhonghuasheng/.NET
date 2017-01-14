@@ -1,0 +1,38 @@
+﻿<Window x:Class="XMLDataTemplate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:xmlDataTemplate="clr-namespace:XMLDataTemplate"
+        Title="MainWindow" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <!--DataTemplate-->
+        <DataTemplate x:Key="MyXmlDataTemplate">
+            <Grid>
+                <StackPanel Orientation="Horizontal">
+                    <Grid>
+                        <Rectangle Stroke="Yellow" Fill="Orange" Width="{Binding XPath=@Price}"/>
+                        <TextBlock Text="{Binding XPath=@Year}"/>
+                    </Grid>
+                    <TextBlock Text="{Binding XPath=@Price}" Margin="5,0"/>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+        <!--数据源-->
+        <XmlDataProvider x:Key="Ds"  XPath="Units/Unit">
+            <x:XData>
+                <Units xmlns="">
+                    <Unit Year="2001" Price="100"/>
+                    <Unit Year="2002" Price="120"/>
+                    <Unit Year="2001" Price="140"/>
+                    <Unit Year="2001" Price="160"/>
+                    <Unit Year="2001" Price="180"/>
+                    <Unit Year="2001" Price="200"/>
+                    <Unit Year="2001" Price="220"/>
+                </Units>
+            </x:XData>
+        </XmlDataProvider>
+    </Window.Resources>
+    <StackPanel>
+        <ListBox ItemsSource="{Binding Source={StaticResource Ds}}" ItemTemplate="{StaticResource MyXmlDataTemplate}"/>
+        <ComboBox ItemsSource="{Binding Source={StaticResource Ds}}" ItemTemplate="{StaticResource MyXmlDataTemplate}"/>
+    </StackPanel>
+</Window>

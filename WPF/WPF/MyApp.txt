@@ -1,0 +1,10 @@
+namespace MyApp
+{
+	class Program
+	{
+		static void Main(string[]args)
+		{
+			System.Windows.MessageBox.Show("Hello WPF");
+		}
+	}
+}

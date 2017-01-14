@@ -1,0 +1,12 @@
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\bin\Debug\依赖属性的默认值.exe
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\bin\Debug\依赖属性的默认值.pdb
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\obj\Debug\MainWindow.baml
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\obj\Debug\MainWindow.g.cs
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\obj\Debug\App.g.cs
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\obj\Debug\依赖属性的默认值_MarkupCompile.cache
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\obj\Debug\依赖属性的默认值.g.resources
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\obj\Debug\依赖属性的默认值.Properties.Resources.resources
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\obj\Debug\依赖属性的默认值.csproj.GenerateResource.Cache
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\obj\Debug\依赖属性的默认值.exe
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\obj\Debug\依赖属性的默认值.pdb
+E:\C#\WPF\DependencyPropertyProject\依赖属性的默认值\obj\Debug\依赖属性的默认值.csprojResolveAssemblyReference.cache

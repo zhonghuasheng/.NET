@@ -1,0 +1,11 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:WodeKongjian="clr-namespace:WodeKongjian;assembly=WodeKongjian" x:Class="WpfApplication2.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+
+        <WodeKongjian:AnNiu HorizontalAlignment="Left" Margin="254,110,0,0" VerticalAlignment="Top" Zbiaoti="的地方地方" BorderBrush="Green"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,44 @@
+﻿<Window x:Class="多数据条件触发的MultiDataTrigger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:多数据条件触发的MultiDataTrigger"
+        xmlns:collections="clr-namespace:System.Collections;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="ListBoxItem">
+            <!--使用Style设置DataTemplate-->
+            <Setter Property="ContentTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding ID}"/>
+                            <TextBlock Text="{Binding Name}"/>
+                            <TextBlock Text="{Binding Age}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+            <!--MultiDataTrigger-->
+            <Style.Triggers>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding Path=ID}" Value="2"/>
+                        <Condition Binding="{Binding Path=Name}" Value="Tom"/>
+                    </MultiDataTrigger.Conditions>
+                    <MultiDataTrigger.Setters>
+                        <Setter Property="Background" Value="Orange"/>
+                    </MultiDataTrigger.Setters>
+                </MultiDataTrigger>
+            </Style.Triggers>
+        </Style>
+        <!--数据源-->
+        <!--<collections:ArrayList x:Key="stuList">
+            <local:Student ID="1" Name="One" Age="1"/>
+            <local:Student ID="2" Name="Two" Age="2"/>
+            <local:Student ID="3" Name="Three" Age="3"/>
+        </collections:ArrayList>-->
+    </Window.Resources>
+    <StackPanel>
+        <ListBox x:Name="list" Margin="5" />
+    </StackPanel>
+</Window>

@@ -1,0 +1,192 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="模板.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <LinearGradientBrush x:Key="TextBoxBorder" EndPoint="0,20" MappingMode="Absolute" StartPoint="0,0">
+        	<GradientStop Color="#ABADB3" Offset="0.05"/>
+        	<GradientStop Color="#E2E3EA" Offset="0.07"/>
+        	<GradientStop Color="#E3E9EF" Offset="1"/>
+        </LinearGradientBrush>
+        <Style x:Key="RoutedCornerTextBoxStyle" BasedOn="{x:Null}" TargetType="{x:Type TextBox}">
+        	<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        	<Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+        	<Setter Property="BorderBrush" Value="{StaticResource TextBoxBorder}"/>
+        	<Setter Property="BorderThickness" Value="1"/>
+        	<Setter Property="Padding" Value="1"/>
+        	<Setter Property="AllowDrop" Value="true"/>
+        	<Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+        	<Setter Property="Template">
+        		<Setter.Value>
+        			<ControlTemplate TargetType="{x:Type TextBox}">
+                        <!--<Themes:ListBoxChrome x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" RenderMouseOver="{TemplateBinding IsMouseOver}" RenderFocused="{TemplateBinding IsKeyboardFocusWithin}" SnapsToDevicePixels="true">
+                            <ScrollViewer x:Name="PART_ContentHost" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                        </Themes:ListBoxChrome>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="Bd" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>-->
+        				<Border x:Name="Bd" SnapsToDevicePixels="True"
+        					Background="{TemplateBinding Background}"
+        					BorderBrush="{TemplateBinding BorderBrush}"
+        					BorderThickness="{TemplateBinding BorderThickness}"
+        					CornerRadius="15"
+                                >
+        					<ScrollViewer x:Name="PART_ContentHost" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+        				</Border>
+        			</ControlTemplate>
+        		</Setter.Value>
+        	</Setter>
+        </Style>
+        <LinearGradientBrush x:Key="ProgressBarBackground" EndPoint="1,0" StartPoint="0,0">
+        	<GradientStop Color="#BABABA" Offset="0"/>
+        	<GradientStop Color="#C7C7C7" Offset="0.5"/>
+        	<GradientStop Color="#BABABA" Offset="1"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="ProgressBarBorderBrush" EndPoint="0,1" StartPoint="0,0">
+        	<GradientStop Color="#B2B2B2" Offset="0"/>
+        	<GradientStop Color="#8C8C8C" Offset="1"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="ProgressBarGlassyHighlight" EndPoint="0,1" StartPoint="0,0">
+        	<GradientStop Color="#50FFFFFF" Offset="0.5385"/>
+        	<GradientStop Color="#00FFFFFF" Offset="0.5385"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="ProgressBarTopHighlight" EndPoint="0,1" StartPoint="0,0">
+        	<GradientStop Color="#80FFFFFF" Offset="0.05"/>
+        	<GradientStop Color="#00FFFFFF" Offset="0.25"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="ProgressBarIndicatorAnimatedFill" EndPoint="0,0" MappingMode="Absolute" StartPoint="-100,0">
+        	<GradientStop Color="#00000000" Offset="0"/>
+        	<GradientStop Color="#FF000000" Offset="0.4"/>
+        	<GradientStop Color="#FF000000" Offset="0.6"/>
+        	<GradientStop Color="#00000000" Offset="1"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="ProgressBarIndicatorDarkEdgeLeft" EndPoint="1,0" StartPoint="0,0">
+        	<GradientStop Color="#0C000000" Offset="0"/>
+        	<GradientStop Color="#20000000" Offset="0.3"/>
+        	<GradientStop Color="#00000000" Offset="1"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="ProgressBarIndicatorDarkEdgeRight" EndPoint="1,0" StartPoint="0,0">
+        	<GradientStop Color="#00000000" Offset="0"/>
+        	<GradientStop Color="#20000000" Offset="0.7"/>
+        	<GradientStop Color="#0C000000" Offset="1"/>
+        </LinearGradientBrush>
+        <RadialGradientBrush x:Key="ProgressBarIndicatorLightingEffectLeft" RadiusY="1" RadiusX="1" RelativeTransform="1,0,0,1,0.5,0.5">
+        	<GradientStop Color="#60FFFFC4" Offset="0"/>
+        	<GradientStop Color="#00FFFFC4" Offset="1"/>
+        </RadialGradientBrush>
+        <LinearGradientBrush x:Key="ProgressBarIndicatorLightingEffect" EndPoint="0,0" StartPoint="0,1">
+        	<GradientStop Color="#60FFFFC4" Offset="0"/>
+        	<GradientStop Color="#00FFFFC4" Offset="1"/>
+        </LinearGradientBrush>
+        <RadialGradientBrush x:Key="ProgressBarIndicatorLightingEffectRight" RadiusY="1" RadiusX="1" RelativeTransform="1,0,0,1,-0.5,0.5">
+        	<GradientStop Color="#60FFFFC4" Offset="0"/>
+        	<GradientStop Color="#00FFFFC4" Offset="1"/>
+        </RadialGradientBrush>
+        <LinearGradientBrush x:Key="ProgressBarIndicatorGlassyHighlight" EndPoint="0,1" StartPoint="0,0">
+        	<GradientStop Color="#90FFFFFF" Offset="0.5385"/>
+        	<GradientStop Color="#00FFFFFF" Offset="0.5385"/>
+        </LinearGradientBrush>
+        <Style x:Key="ProgressBarStyle1" TargetType="{x:Type ProgressBar}">
+        	<Setter Property="Foreground" Value="#01D328"/>
+        	<Setter Property="Background" Value="{StaticResource ProgressBarBackground}"/>
+        	<Setter Property="BorderBrush" Value="{StaticResource ProgressBarBorderBrush}"/>
+        	<Setter Property="BorderThickness" Value="1"/>
+        	<Setter Property="Template">
+        		<Setter.Value>
+        			<ControlTemplate TargetType="{x:Type ProgressBar}">
+        				<Grid x:Name="Background" SnapsToDevicePixels="true">
+        					<Rectangle Fill="{TemplateBinding Background}" RadiusY="2" RadiusX="2" Margin="0,0,0,-17"/>
+        					<Border Background="{StaticResource ProgressBarGlassyHighlight}" CornerRadius="2" Margin="1"/>
+        					<Border BorderBrush="#80FFFFFF" BorderThickness="1,0,1,1" Background="{StaticResource ProgressBarTopHighlight}" Margin="1"/>
+        					<Rectangle x:Name="PART_Track" Margin="1"/>
+        					<Decorator x:Name="PART_Indicator" HorizontalAlignment="Left" Margin="1">
+        						<Grid x:Name="Foreground">
+        							<Grid.ColumnDefinitions>
+        								<ColumnDefinition MaxWidth="15"/>
+        								<ColumnDefinition Width="0.1*"/>
+        								<ColumnDefinition MaxWidth="15"/>
+        							</Grid.ColumnDefinitions>
+        							<Grid.RowDefinitions>
+        								<RowDefinition/>
+        								<RowDefinition/>
+        							</Grid.RowDefinitions>
+        							<Rectangle x:Name="Indicator" Grid.ColumnSpan="3" Fill="{TemplateBinding Foreground}" Grid.RowSpan="2"/>
+        							<Rectangle x:Name="Animation" Grid.ColumnSpan="3" Fill="{TemplateBinding Foreground}" Grid.RowSpan="2">
+        								<Rectangle.OpacityMask>
+        									<MultiBinding>
+        										<MultiBinding.Converter>
+        											<Themes:ProgressBarHighlightConverter/>
+        										</MultiBinding.Converter>
+        										<Binding Source="{StaticResource ProgressBarIndicatorAnimatedFill}"/>
+        										<Binding ElementName="Background" Path="ActualWidth"/>
+        										<Binding ElementName="Background" Path="ActualHeight"/>
+        									</MultiBinding>
+        								</Rectangle.OpacityMask>
+        							</Rectangle>
+        							<Rectangle x:Name="LeftDark" Fill="{StaticResource ProgressBarIndicatorDarkEdgeLeft}" Margin="1,1,0,1" RadiusY="1" RadiusX="1" Grid.RowSpan="2"/>
+        							<Rectangle x:Name="RightDark" Grid.Column="2" Fill="{StaticResource ProgressBarIndicatorDarkEdgeRight}" Margin="0,1,1,1" RadiusY="1" RadiusX="1" Grid.RowSpan="2"/>
+        							<Rectangle x:Name="LeftLight" Grid.Column="0" Fill="{StaticResource ProgressBarIndicatorLightingEffectLeft}" Grid.Row="2"/>
+        							<Rectangle x:Name="CenterLight" Grid.Column="1" Fill="{StaticResource ProgressBarIndicatorLightingEffect}" Grid.Row="2"/>
+        							<Rectangle x:Name="RightLight" Grid.Column="2" Fill="{StaticResource ProgressBarIndicatorLightingEffectRight}" Grid.Row="2"/>
+        							<Border x:Name="Highlight1" Background="{StaticResource ProgressBarIndicatorGlassyHighlight}" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        							<Border x:Name="Highlight2" Background="{StaticResource ProgressBarTopHighlight}" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        						</Grid>
+        					</Decorator>
+        					<Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="2" Margin="0,0,0,-17"/>
+        				</Grid>
+        				<ControlTemplate.Triggers>
+        					<Trigger Property="Orientation" Value="Vertical">
+        						<Setter Property="LayoutTransform" TargetName="Background">
+        							<Setter.Value>
+        								<RotateTransform Angle="-90"/>
+        							</Setter.Value>
+        						</Setter>
+        						<Setter Property="LayoutTransform" TargetName="PART_Track">
+        							<Setter.Value>
+        								<RotateTransform Angle="90"/>
+        							</Setter.Value>
+        						</Setter>
+        						<Setter Property="LayoutTransform" TargetName="PART_Indicator">
+        							<Setter.Value>
+        								<RotateTransform Angle="90"/>
+        							</Setter.Value>
+        						</Setter>
+        						<Setter Property="LayoutTransform" TargetName="Foreground">
+        							<Setter.Value>
+        								<RotateTransform Angle="-90"/>
+        							</Setter.Value>
+        						</Setter>
+        					</Trigger>
+        					<Trigger Property="IsIndeterminate" Value="true">
+        						<Setter Property="Visibility" TargetName="LeftDark" Value="Collapsed"/>
+        						<Setter Property="Visibility" TargetName="RightDark" Value="Collapsed"/>
+        						<Setter Property="Visibility" TargetName="LeftLight" Value="Collapsed"/>
+        						<Setter Property="Visibility" TargetName="CenterLight" Value="Collapsed"/>
+        						<Setter Property="Visibility" TargetName="RightLight" Value="Collapsed"/>
+        						<Setter Property="Visibility" TargetName="Indicator" Value="Collapsed"/>
+        					</Trigger>
+        					<Trigger Property="IsIndeterminate" Value="false">
+        						<Setter Property="Fill" TargetName="Animation" Value="#80B5FFA9"/>
+        					</Trigger>
+        				</ControlTemplate.Triggers>
+        			</ControlTemplate>
+        		</Setter.Value>
+        	</Setter>
+        </Style>
+    </Window.Resources>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<TextBox x:Name="textBox1" BorderBrush="Red" Margin="10" Height="40" Grid.Row="0" Style="{DynamicResource RoutedCornerTextBoxStyle}"/>
+		<TextBox x:Name="textBox2" BorderBrush="Green" Margin="10" Height="40" Grid.Row="1" Style="{DynamicResource RoutedCornerTextBoxStyle}"/>
+		<TextBox Grid.Row="2" Height="40" Margin="10"/>
+		<ProgressBar HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Style="{DynamicResource ProgressBarStyle1}"/>
+	</Grid>
+</Window>

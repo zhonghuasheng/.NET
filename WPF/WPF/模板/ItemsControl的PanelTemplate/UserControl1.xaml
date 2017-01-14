@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="ItemsControl的PanelTemplate.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid MouseEnter="Grid_MouseEnter">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Name="Tupian" Grid.RowSpan="2"></Image>
+        <Image Name="Tubiao"></Image>
+        <TextBlock Grid.Row="1" Name="Biaoti" Text="请输入标题" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"></TextBlock>
+    </Grid>
+</UserControl>

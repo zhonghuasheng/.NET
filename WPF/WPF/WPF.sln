@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "023XAML中的属性和事件", "WPF\023XAML中的属性和事件.csproj", "{8511366A-FB40-4CB9-BA36-6FA66596B0CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "032使用StackPanel面板进行简单布局", "032使用StackPanel面板进行简单布局\032使用StackPanel面板进行简单布局.csproj", "{3D2A7740-414A-4E23-B8DF-82C7FA067376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "034嵌套布局容器", "034嵌套布局容器\034嵌套布局容器.csproj", "{EC47636B-FCBB-4B18-84D2-7B9455A2B95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "034Grid面板", "034Grid面板\034Grid面板.csproj", "{D8C36177-B00E-46E0-B919-DA190099830E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0352InkCanvas", "0352InkCanvas\0352InkCanvas.csproj", "{EACEC6DB-A538-4CE2-8823-0093FA441FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu控件", "Menu控件\Menu控件.csproj", "{6862FF46-F47B-4469-A104-8BDA44B127A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemp", "TestDemp\TestDemp.csproj", "{66227109-CB88-4410-9B8D-D07DA6C74EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "布局连连看", "布局连连看\布局连连看.csproj", "{43A41CD5-F107-4B1A-A9D6-10D30377672C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOpenFileDialog", "OpenFileDialog\TestOpenFileDialog.csproj", "{B3B0F88A-4F5D-42C3-867C-B27ED1FFC1D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStringReplace", "TestStringReplace\TestStringReplace.csproj", "{9D7DC2AC-54DF-4A1D-9B98-E81172D8DC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "依赖属性的继承关系", "依赖属性的继承关系\依赖属性的继承关系.csproj", "{538A44CB-A1C0-4B2A-9012-BE6EBF72E174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "将窗体设为透明1", "将窗体设为透明1\将窗体设为透明1.csproj", "{F0A82EDA-3C82-4A87-ABA4-04D46DBD7AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2", "4.2\4.2.csproj", "{555A21EF-CD72-46A9-9EDC-46368D6D1623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "统一设置一组控件的样式", "统一设置一组控件的样式\统一设置一组控件的样式.csproj", "{62ACFCA0-AA72-4105-924B-A035C505722E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义属性", "自定义属性\自定义属性.csproj", "{449392B9-392C-49CD-AD0C-06AC3894320D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "自定义依赖属性", "自定义依赖属性\自定义依赖属性.csproj", "{009B4C50-31BF-4F4E-99C8-318556EE5C29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8511366A-FB40-4CB9-BA36-6FA66596B0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8511366A-FB40-4CB9-BA36-6FA66596B0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8511366A-FB40-4CB9-BA36-6FA66596B0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8511366A-FB40-4CB9-BA36-6FA66596B0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2A7740-414A-4E23-B8DF-82C7FA067376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2A7740-414A-4E23-B8DF-82C7FA067376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2A7740-414A-4E23-B8DF-82C7FA067376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2A7740-414A-4E23-B8DF-82C7FA067376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC47636B-FCBB-4B18-84D2-7B9455A2B95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC47636B-FCBB-4B18-84D2-7B9455A2B95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC47636B-FCBB-4B18-84D2-7B9455A2B95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC47636B-FCBB-4B18-84D2-7B9455A2B95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C36177-B00E-46E0-B919-DA190099830E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C36177-B00E-46E0-B919-DA190099830E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C36177-B00E-46E0-B919-DA190099830E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C36177-B00E-46E0-B919-DA190099830E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACEC6DB-A538-4CE2-8823-0093FA441FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACEC6DB-A538-4CE2-8823-0093FA441FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACEC6DB-A538-4CE2-8823-0093FA441FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACEC6DB-A538-4CE2-8823-0093FA441FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6862FF46-F47B-4469-A104-8BDA44B127A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6862FF46-F47B-4469-A104-8BDA44B127A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6862FF46-F47B-4469-A104-8BDA44B127A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6862FF46-F47B-4469-A104-8BDA44B127A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66227109-CB88-4410-9B8D-D07DA6C74EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66227109-CB88-4410-9B8D-D07DA6C74EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66227109-CB88-4410-9B8D-D07DA6C74EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66227109-CB88-4410-9B8D-D07DA6C74EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A41CD5-F107-4B1A-A9D6-10D30377672C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A41CD5-F107-4B1A-A9D6-10D30377672C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A41CD5-F107-4B1A-A9D6-10D30377672C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A41CD5-F107-4B1A-A9D6-10D30377672C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B0F88A-4F5D-42C3-867C-B27ED1FFC1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B0F88A-4F5D-42C3-867C-B27ED1FFC1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B0F88A-4F5D-42C3-867C-B27ED1FFC1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B0F88A-4F5D-42C3-867C-B27ED1FFC1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D7DC2AC-54DF-4A1D-9B98-E81172D8DC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7DC2AC-54DF-4A1D-9B98-E81172D8DC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7DC2AC-54DF-4A1D-9B98-E81172D8DC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7DC2AC-54DF-4A1D-9B98-E81172D8DC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538A44CB-A1C0-4B2A-9012-BE6EBF72E174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538A44CB-A1C0-4B2A-9012-BE6EBF72E174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538A44CB-A1C0-4B2A-9012-BE6EBF72E174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538A44CB-A1C0-4B2A-9012-BE6EBF72E174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A82EDA-3C82-4A87-ABA4-04D46DBD7AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A82EDA-3C82-4A87-ABA4-04D46DBD7AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A82EDA-3C82-4A87-ABA4-04D46DBD7AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A82EDA-3C82-4A87-ABA4-04D46DBD7AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{555A21EF-CD72-46A9-9EDC-46368D6D1623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555A21EF-CD72-46A9-9EDC-46368D6D1623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555A21EF-CD72-46A9-9EDC-46368D6D1623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555A21EF-CD72-46A9-9EDC-46368D6D1623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62ACFCA0-AA72-4105-924B-A035C505722E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62ACFCA0-AA72-4105-924B-A035C505722E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62ACFCA0-AA72-4105-924B-A035C505722E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62ACFCA0-AA72-4105-924B-A035C505722E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449392B9-392C-49CD-AD0C-06AC3894320D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449392B9-392C-49CD-AD0C-06AC3894320D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449392B9-392C-49CD-AD0C-06AC3894320D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449392B9-392C-49CD-AD0C-06AC3894320D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009B4C50-31BF-4F4E-99C8-318556EE5C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009B4C50-31BF-4F4E-99C8-318556EE5C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009B4C50-31BF-4F4E-99C8-318556EE5C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009B4C50-31BF-4F4E-99C8-318556EE5C29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿<Window x:Class="依赖属性的默认值.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <WrapPanel>
+        <TextBlock  Margin="5">默认值:</TextBlock>
+        <TextBox Name="txtTest1" Width="120" Margin="5" BorderBrush="Red"  BorderThickness="1"></TextBox>
+        <TextBlock Margin="5">非默认值:</TextBlock>
+        <TextBox Name="txtTest2" BorderBrush="Red" BorderThickness="1" Width="120"></TextBox>
+        <Button Name="btnTest" Margin="5" Width="80" Click="BtnTest_OnClick">测试</Button>
+
+    </WrapPanel>
+</Window>

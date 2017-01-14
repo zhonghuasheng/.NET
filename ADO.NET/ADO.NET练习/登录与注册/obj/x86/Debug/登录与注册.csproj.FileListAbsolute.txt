@@ -1,0 +1,13 @@
+E:\C#\ADO.NET练习\登录与注册\bin\Debug\UserInformation.mdf
+E:\C#\ADO.NET练习\登录与注册\bin\Debug\UserInformation_log.ldf
+E:\C#\ADO.NET练习\登录与注册\bin\Debug\登录与注册.exe
+E:\C#\ADO.NET练习\登录与注册\bin\Debug\登录与注册.pdb
+E:\C#\ADO.NET练习\登录与注册\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C#\ADO.NET练习\登录与注册\obj\x86\Debug\登录与注册.Load.resources
+E:\C#\ADO.NET练习\登录与注册\obj\x86\Debug\登录与注册.Properties.Resources.resources
+E:\C#\ADO.NET练习\登录与注册\obj\x86\Debug\登录与注册.Registered.resources
+E:\C#\ADO.NET练习\登录与注册\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\C#\ADO.NET练习\登录与注册\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\C#\ADO.NET练习\登录与注册\obj\x86\Debug\登录与注册.exe
+E:\C#\ADO.NET练习\登录与注册\obj\x86\Debug\登录与注册.pdb
+E:\C#\ADO.NET练习\登录与注册\obj\x86\Debug\登录与注册.Loaded.resources

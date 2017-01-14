@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OESModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="OESModelStoreContainer">
+    <EntitySet Name="exam" EntityType="OESModel.Store.exam" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="exampaper" EntityType="OESModel.Store.exampaper" store:Type="Tables" store:Schema="dbo" store:Name="exampaper">
+      <DefiningQuery>SELECT 
+      [exampaper].[exam_id] AS [exam_id], 
+      [exampaper].[question_id] AS [question_id]
+      FROM [dbo].[exampaper] AS [exampaper]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="question" EntityType="OESModel.Store.question" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="recordanswer" EntityType="OESModel.Store.recordanswer" store:Type="Tables" store:Schema="dbo" store:Name="recordanswer">
+      <DefiningQuery>SELECT 
+      [recordanswer].[exam_id] AS [exam_id], 
+      [recordanswer].[username] AS [username], 
+      [recordanswer].[question_id] AS [question_id], 
+      [recordanswer].[user_answer] AS [user_answer]
+      FROM [dbo].[recordanswer] AS [recordanswer]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="role" EntityType="OESModel.Store.role" store:Type="Tables" store:Schema="dbo" store:Name="role">
+      <DefiningQuery>SELECT 
+      [role].[role_id] AS [role_id], 
+      [role].[type] AS [type]
+      FROM [dbo].[role] AS [role]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="score" EntityType="OESModel.Store.score" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="user" EntityType="OESModel.Store.user" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="exam">
+    <Key>
+      <PropertyRef Name="exam_id" />
+    </Key>
+    <Property Name="exam_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="create_time" Type="datetime" Nullable="false" />
+    <Property Name="single_question_score" Type="int" Nullable="false" />
+    <Property Name="quantity" Type="int" Nullable="false" />
+    <Property Name="total_score" Type="int" Nullable="false" />
+    <Property Name="duration" Type="int" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="45" />
+    <Property Name="pass_score" Type="int" Nullable="false" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“OES.dbo.exampaper”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="exampaper">
+    <Key>
+      <PropertyRef Name="exam_id" />
+      <PropertyRef Name="question_id" />
+    </Key>
+    <Property Name="exam_id" Type="int" Nullable="false" />
+    <Property Name="question_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="question">
+    <Key>
+      <PropertyRef Name="question_id" />
+    </Key>
+    <Property Name="question_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="varchar" Nullable="false" MaxLength="1000" />
+    <Property Name="option_a" Type="varchar" Nullable="false" MaxLength="1000" />
+    <Property Name="option_b" Type="varchar" Nullable="false" MaxLength="1000" />
+    <Property Name="option_c" Type="varchar" Nullable="false" MaxLength="1000" />
+    <Property Name="option_d" Type="varchar" Nullable="false" MaxLength="1000" />
+    <Property Name="answer" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="state" Type="int" Nullable="false" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“OES.dbo.recordanswer”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="recordanswer">
+    <Key>
+      <PropertyRef Name="exam_id" />
+      <PropertyRef Name="username" />
+      <PropertyRef Name="question_id" />
+      <PropertyRef Name="user_answer" />
+    </Key>
+    <Property Name="exam_id" Type="int" Nullable="false" />
+    <Property Name="username" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="question_id" Type="int" Nullable="false" />
+    <Property Name="user_answer" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“OES.dbo.role”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="role">
+    <Key>
+      <PropertyRef Name="role_id" />
+      <PropertyRef Name="type" />
+    </Key>
+    <Property Name="role_id" Type="int" Nullable="false" />
+    <Property Name="type" Type="varchar" Nullable="false" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="score">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="exam_id" Type="int" Nullable="false" />
+    <Property Name="grade" Type="int" Nullable="false" />
+    <Property Name="attend_time" Type="datetime" Nullable="false" />
+    <Property Name="end_time" Type="datetime" Nullable="false" />
+    <Property Name="current_exampaper_question_id" Type="int" Nullable="false" />
+    <Property Name="is_finished" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="password" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="role_id" Type="int" Nullable="false" />
+    <Property Name="telephone" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="gender" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="email" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="address" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="chinese_name" Type="varchar" MaxLength="45" />
+    <Property Name="language" Type="varchar" MaxLength="45" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\01\bin\Debug\01.exe
+E:\C#\ADO.NET练习\01\bin\Debug\01.pdb
+E:\C#\ADO.NET练习\01\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C#\ADO.NET练习\01\obj\x86\Debug\01.exe
+E:\C#\ADO.NET练习\01\obj\x86\Debug\01.pdb
+E:\C#\ADO.NET练习\01\bin\Debug\Database2.mdf
+E:\C#\ADO.NET练习\01\bin\Debug\Database2_log.ldf

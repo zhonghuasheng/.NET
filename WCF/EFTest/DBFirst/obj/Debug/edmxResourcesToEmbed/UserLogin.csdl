@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="testDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="testDBEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="User_Login" EntityType="testDBModel.User_Login" />
+  </EntityContainer>
+  <EntityType Name="User_Login">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="role_id" Type="Int32" Nullable="false" />
+    <Property Name="is_login" Type="Boolean" Nullable="false" />
+    <Property Name="last_login_time" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+</Schema>

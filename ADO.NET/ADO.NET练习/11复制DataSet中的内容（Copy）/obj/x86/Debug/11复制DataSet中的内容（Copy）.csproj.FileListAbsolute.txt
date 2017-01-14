@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\11复制DataSet中的内容（Copy）\bin\Debug\11复制DataSet中的内容（Copy）.exe
+E:\C#\ADO.NET练习\11复制DataSet中的内容（Copy）\bin\Debug\11复制DataSet中的内容（Copy）.pdb
+E:\C#\ADO.NET练习\11复制DataSet中的内容（Copy）\obj\x86\Debug\_11复制DataSet中的内容_Copy_.Form1.resources
+E:\C#\ADO.NET练习\11复制DataSet中的内容（Copy）\obj\x86\Debug\_11复制DataSet中的内容_Copy_.Properties.Resources.resources
+E:\C#\ADO.NET练习\11复制DataSet中的内容（Copy）\obj\x86\Debug\11复制DataSet中的内容（Copy）.exe
+E:\C#\ADO.NET练习\11复制DataSet中的内容（Copy）\obj\x86\Debug\11复制DataSet中的内容（Copy）.pdb
+E:\C#\ADO.NET练习\11复制DataSet中的内容（Copy）\obj\x86\Debug\11复制DataSet中的内容（Copy）.csproj.GenerateResource.Cache

@@ -1,0 +1,62 @@
+﻿<Window x:Class="_08将XML文件写在XAML中作为Binding的数据源.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <XmlDataProvider x:Key="xdp" XPath="FileSystem/Folder">
+            <x:XData>
+                <FileSystem xmlns="">
+                    <Folder Name="A">
+                        <Folder Name="BooksA">
+                            <Folder Name="Programming">
+                                <Folder Name="Windows">
+                                    <Folder Name="WCF"/>
+                                    <Folder Name="MFC"/>
+                                    <Folder Name="Delphi"/>
+                                </Folder>
+                            </Folder>
+                            <Folder Name="Tools">
+                                <Folder Name="Development"/>
+                                <Folder Name="Designment"/>
+                                <Folder Name="Players"/>
+                            </Folder>
+                            <Folder Name="Tools">
+                                <Folder Name="Development"/>
+                                <Folder Name="Designment"/>
+                                <Folder Name="Players"/>
+                            </Folder>
+                        </Folder>
+                        <Folder Name="BooksB">
+                            <Folder Name="Programming">
+                                <Folder Name="Windows">
+                                    <Folder Name="WCF"/>
+                                    <Folder Name="MFC"/>
+                                    <Folder Name="Delphi"/>
+                                </Folder>
+                            </Folder>
+                            <Folder Name="Tools">
+                                <Folder Name="Development"/>
+                                <Folder Name="Designment"/>
+                                <Folder Name="Players"/>
+                            </Folder>
+                            <Folder Name="Tools">
+                                <Folder Name="Development"/>
+                                <Folder Name="Designment"/>
+                                <Folder Name="Players"/>
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                </FileSystem>
+            </x:XData>
+        </XmlDataProvider>
+    </Window.Resources>
+    <Grid>
+        <TreeView ItemsSource="{Binding Source={StaticResource xdp}}">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding XPath=Folder}">
+                    <TextBlock Text="{Binding XPath=@Name}"></TextBlock>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+    </Grid>
+</Window>

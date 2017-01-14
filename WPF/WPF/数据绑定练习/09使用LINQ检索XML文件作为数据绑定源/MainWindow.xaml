@@ -1,0 +1,17 @@
+﻿<Window x:Class="_09使用LINQ检索XML文件作为数据绑定源.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Background="LightBlue">
+        <ListView Margin="5" Height="200" x:Name="ListViewStudents">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" Width="60" DisplayMemberBinding="{Binding Id}"></GridViewColumn>
+                    <GridViewColumn Header="Name" Width="80" DisplayMemberBinding="{Binding Name}"></GridViewColumn>
+                    <GridViewColumn Header="Age" Width="60" DisplayMemberBinding="{Binding Age}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="BtnTest" Height="36" Margin="5" Click="BtnTest_OnClick" Content="使用LINQ检索XML数据作为绑定源" ></Button>
+    </StackPanel>
+</Window>

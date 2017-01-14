@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\12使用DataTable向数据库中添加表\bin\Debug\12使用DataTable向数据库中添加表.exe
+E:\C#\ADO.NET练习\12使用DataTable向数据库中添加表\bin\Debug\12使用DataTable向数据库中添加表.pdb
+E:\C#\ADO.NET练习\12使用DataTable向数据库中添加表\obj\x86\Debug\_12使用DataTable向数据库中添加表.Form1.resources
+E:\C#\ADO.NET练习\12使用DataTable向数据库中添加表\obj\x86\Debug\_12使用DataTable向数据库中添加表.Properties.Resources.resources
+E:\C#\ADO.NET练习\12使用DataTable向数据库中添加表\obj\x86\Debug\12使用DataTable向数据库中添加表.exe
+E:\C#\ADO.NET练习\12使用DataTable向数据库中添加表\obj\x86\Debug\12使用DataTable向数据库中添加表.pdb
+E:\C#\ADO.NET练习\12使用DataTable向数据库中添加表\obj\x86\Debug\12使用DataTable向数据库中添加表.csproj.GenerateResource.Cache

@@ -1,0 +1,11 @@
+E:\C#\WPF\WPF控件\WPF控件\obj\Debug\MainWindow.baml
+E:\C#\WPF\WPF控件\WPF控件\obj\Debug\MainWindow.g.cs
+E:\C#\WPF\WPF控件\WPF控件\obj\Debug\App.g.cs
+E:\C#\WPF\WPF控件\WPF控件\obj\Debug\WPF控件_MarkupCompile.cache
+E:\C#\WPF\WPF控件\WPF控件\obj\Debug\WPF控件.g.resources
+E:\C#\WPF\WPF控件\WPF控件\obj\Debug\WPF控件.Properties.Resources.resources
+E:\C#\WPF\WPF控件\WPF控件\obj\Debug\TreeView.csproj.GenerateResource.Cache
+E:\C#\WPF\WPF控件\WPF控件\bin\Debug\WPF控件.exe
+E:\C#\WPF\WPF控件\WPF控件\bin\Debug\WPF控件.pdb
+E:\C#\WPF\WPF控件\WPF控件\obj\Debug\WPF控件.exe
+E:\C#\WPF\WPF控件\WPF控件\obj\Debug\WPF控件.pdb

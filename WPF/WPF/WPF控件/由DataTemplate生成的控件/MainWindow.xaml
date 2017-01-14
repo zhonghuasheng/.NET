@@ -1,0 +1,24 @@
+﻿<Window x:Class="由DataTemplate生成的控件.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:由DataTemplate生成的控件"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <!--数据对象-->
+        <local:Student x:Key="stu" Id="1" Name="张三" Skill="C#" HasJob="True"/>
+        <!--DataTemplate-->
+        <DataTemplate x:Key="stuDT">
+            <Border BorderBrush="Orange" BorderThickness="2" CornerRadius="5">
+                <StackPanel>
+                    <TextBlock Text="{Binding Id}" Margin="5"/>
+                    <TextBlock x:Name="textBlockName" Text="{Binding Name}" Margin="5"/>
+                    <TextBlock Text="{Binding Skill}" Margin="5"/>
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+    <StackPanel>
+        <ContentPresenter x:Name="cp" Content="{StaticResource stu}" ContentTemplate="{StaticResource stuDT}" Margin="5"/>
+        <Button Content="Find" Margin="5,0" Click="ButtonBase_OnClick"></Button>
+    </StackPanel>
+</Window>

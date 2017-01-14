@@ -1,0 +1,12 @@
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\bin\Debug\SimpleMVVMDemoWPF.exe
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\bin\Debug\SimpleMVVMDemoWPF.pdb
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\obj\Debug\SimpleMVVMDemoWPF.csprojResolveAssemblyReference.cache
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\obj\Debug\MainWindow.baml
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\obj\Debug\MainWindow.g.cs
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\obj\Debug\App.g.cs
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\obj\Debug\SimpleMVVMDemoWPF_MarkupCompile.cache
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\obj\Debug\SimpleMVVMDemoWPF.g.resources
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\obj\Debug\SimpleMVVMDemoWPF.Properties.Resources.resources
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\obj\Debug\SimpleMVVMDemoWPF.csproj.GenerateResource.Cache
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\obj\Debug\SimpleMVVMDemoWPF.exe
+E:\C#\WPF\MVVM\SimpleMVVMDemoWPF\obj\Debug\SimpleMVVMDemoWPF.pdb

@@ -1,0 +1,14 @@
+﻿<Window x:Class="_07没有Source的绑定_集合.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:_07没有Source的绑定_集合"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <StackPanel.DataContext>
+           <local:Student StuId="001" StuName="张三" StuAge="100"></local:Student>
+        </StackPanel.DataContext>
+        <TextBox Text="{Binding StuId}"></TextBox>
+        <TextBox Text="{Binding StuName}"></TextBox>
+        <TextBox Text="{Binding StuAge}"></TextBox>
+    </StackPanel>
+</Window>

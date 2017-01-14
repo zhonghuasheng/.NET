@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\09DataGrid运用\bin\Debug\09DataGrid运用.exe
+E:\C#\ADO.NET练习\09DataGrid运用\bin\Debug\09DataGrid运用.pdb
+E:\C#\ADO.NET练习\09DataGrid运用\obj\x86\Debug\_09DataGrid运用.Form1.resources
+E:\C#\ADO.NET练习\09DataGrid运用\obj\x86\Debug\_09DataGrid运用.Properties.Resources.resources
+E:\C#\ADO.NET练习\09DataGrid运用\obj\x86\Debug\09DataGrid运用.exe
+E:\C#\ADO.NET练习\09DataGrid运用\obj\x86\Debug\09DataGrid运用.pdb
+E:\C#\ADO.NET练习\09DataGrid运用\obj\x86\Debug\09DataGridView运用.csproj.GenerateResource.Cache

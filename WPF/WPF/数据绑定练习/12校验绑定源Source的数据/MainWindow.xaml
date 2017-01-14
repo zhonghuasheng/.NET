@@ -1,0 +1,9 @@
+﻿<Window x:Class="_12校验绑定源Source的数据.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="txtTest" Height="36" Margin="1"></TextBox>
+        <Slider x:Name="sliTest" Minimum="0" Maximum="1000" Margin="5"></Slider>
+    </StackPanel>
+</Window>

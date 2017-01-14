@@ -1,0 +1,17 @@
+﻿<Window x:Class="_034嵌套布局容器.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <!--首先添加一个DockPanel容器用于布满全局-->
+    <Border Margin="10,10,10,10" BorderBrush="Red" BorderThickness="2,2,2,2">
+        <DockPanel LastChildFill="True">
+                <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                    <Button Margin="10,10,2,10" Padding="3">OK</Button>
+                    <Button Margin="2,10,10,10" Padding="3">Cancel</Button>
+                </StackPanel>
+            <Border  BorderBrush="Red" BorderThickness="0,0,0,2">
+                <TextBox DockPanel.Dock="Top">是这样布局的吗？</TextBox>
+            </Border>
+        </DockPanel>
+    </Border>
+</Window>

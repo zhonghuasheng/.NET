@@ -1,0 +1,36 @@
+﻿<Window x:Class="WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <LinearGradientBrush.GradientStops>
+                    <GradientStop Offset="0.00" Color="Red"/>
+                    <GradientStop Offset="0.50" Color="Green"/>
+                    <GradientStop Offset="1.00" Color="Violet"/>
+                </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,10,13,10" Name="txtQuestion"
+                 TextWrapping="Wrap" FontFamily="Verdana" FontSize="24">
+            [Please question here.]
+        </TextBox>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100,20,10,20" Width="127" Height="23" Name="btnAnswer"
+                Click="btnAnswer_Click" Grid.Row="1">
+            <!--HorizontalAlignment水平对齐-->
+            <sys:DateTime>2010/10/3 2:30 PM</sys:DateTime>
+        </Button>
+        <TextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10,10,13,10" Name="txtAnswer"
+                 TextWrapping="Wrap" IsReadOnly="True" FontFamily="Verdana" FontSize="24" Grid.Row="2">
+            [Answer will appear here.]
+        </TextBox>
+    </Grid>
+
+</Window>

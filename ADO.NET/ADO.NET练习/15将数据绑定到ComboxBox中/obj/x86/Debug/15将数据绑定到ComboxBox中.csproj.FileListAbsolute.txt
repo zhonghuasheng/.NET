@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\15将数据绑定到ComboxBox中\bin\Debug\15将数据绑定到ComboxBox中.exe
+E:\C#\ADO.NET练习\15将数据绑定到ComboxBox中\bin\Debug\15将数据绑定到ComboxBox中.pdb
+E:\C#\ADO.NET练习\15将数据绑定到ComboxBox中\obj\x86\Debug\_15将数据绑定到ComboxBox中.Form1.resources
+E:\C#\ADO.NET练习\15将数据绑定到ComboxBox中\obj\x86\Debug\_15将数据绑定到ComboxBox中.Properties.Resources.resources
+E:\C#\ADO.NET练习\15将数据绑定到ComboxBox中\obj\x86\Debug\15将数据绑定到ComboxBox中.exe
+E:\C#\ADO.NET练习\15将数据绑定到ComboxBox中\obj\x86\Debug\15将数据绑定到ComboxBox中.pdb
+E:\C#\ADO.NET练习\15将数据绑定到ComboxBox中\obj\x86\Debug\15将数据绑定到ComboxBox中.csproj.GenerateResource.Cache

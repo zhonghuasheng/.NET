@@ -1,0 +1,39 @@
+﻿<Window x:Class="DataTemplate2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:DataTemplate2" 
+        xmlns:collections="clr-namespace:System.Collections;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <!--数据集合-->
+        <collections:ArrayList x:Key="stuList">
+            <local:Student Id="1" Name="One" Skill="C#" HasJob="True"/> 
+            <local:Student Id="2" Name="Two" Skill="Java" HasJob="True"/>
+            <local:Student Id="3" Name="Three" Skill="PHP" HasJob="False"/>
+            <local:Student Id="4" Name="Four" Skill="C++" HasJob="True"/>
+            <local:Student Id="5" Name="Five" Skill="C" HasJob="True"/>
+        </collections:ArrayList>
+        <!--DataTemplate-->
+        <DataTemplate x:Key="nameTD">
+            <TextBox x:Name="textBoxName" Text="{Binding Name}"/>
+        </DataTemplate>
+        <DataTemplate x:Key="SkillTD">
+            <TextBox x:Name="textBoxSkill" Text="{Binding Skill}"/>
+        </DataTemplate>
+        <DataTemplate x:Key="HasJobTD">
+            <CheckBox x:Name="checkBox" IsChecked="{Binding HasJob}"/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid Margin="5">
+        <ListView x:Name="listViewStudent" ItemsSource="{StaticResource stuList}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}"/>
+                    <GridViewColumn Header="姓名" CellTemplate="{StaticResource nameTD}"/>
+                    <GridViewColumn Header="技术" CellTemplate="{StaticResource SkillTD}"/>
+                    <GridViewColumn Header="工作" CellTemplate="{StaticResource HasJobTD}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

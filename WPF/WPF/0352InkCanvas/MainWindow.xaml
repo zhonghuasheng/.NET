@@ -1,0 +1,46 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="_0352InkCanvas.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+	<Window.Resources>
+		<Storyboard x:Key="HelloControl"/>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter">
+			<BeginStoryboard x:Name="HelloControl_BeginStoryboard" Storyboard="{StaticResource HelloControl}"/>
+			<PauseStoryboard BeginStoryboardName="HelloControl_BeginStoryboard"/>
+		</EventTrigger>
+	</Window.Triggers>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<StackPanel Orientation="Horizontal">
+			<TextBlock><Run Text="EditingModel："/></TextBlock>
+			<ComboBox x:Name="cmbEditingMode"/>
+		</StackPanel>
+		<InkCanvas x:Name="inkCanvas" Grid.Row="1" Background="#FF141515" EditingMode="{Binding SelectItem, ElementName=cmbEditingMode}">
+			<Button InkCanvas.Top="10" InkCanvas.Left="10" Margin="0,0,-80,-29" Content="你好">
+				<Button.Background>
+					<RadialGradientBrush>
+						<GradientStop Color="#FFF3F3F3" Offset="0"/>
+						<GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+						<GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+						<GradientStop Color="#FFCF3535" Offset="1"/>
+					</RadialGradientBrush>
+				</Button.Background></Button>
+			<Button Content="Button" HorizontalAlignment="Left" Height="101.326" VerticalAlignment="Top" Width="44.887" Margin="0,21.837,0,-101.326" RenderTransformOrigin="3.342,-0.049">
+				<Button.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform ScaleY="-1"/>
+						<SkewTransform/>
+						<RotateTransform/>
+						<TranslateTransform Y="111.259"/>
+					</TransformGroup>
+				</Button.RenderTransform>
+			</Button>
+		</InkCanvas>
+	</Grid>
+</Window>

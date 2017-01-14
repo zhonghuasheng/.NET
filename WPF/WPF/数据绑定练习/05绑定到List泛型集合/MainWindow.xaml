@@ -1,0 +1,12 @@
+﻿<Window x:Class="_05绑定到List泛型集合.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Background="LightBlue">
+        <TextBlock Text="学号:" FontWeight="Bold" Margin="5" FontSize="16"></TextBlock>
+        <TextBox x:Name="TxtBoxId" Margin="5" Height="36" Text="{Binding ElementName=ListBoxStudents,Path=SelectedItem.Id}"></TextBox>
+        <TextBlock Text="学生集合：" FontSize="16" FontWeight="Bold" Margin="5"></TextBlock>
+        <ListBox x:Name="ListBoxStudents" Height="195" Margin="5">
+        </ListBox>
+    </StackPanel>
+</Window>

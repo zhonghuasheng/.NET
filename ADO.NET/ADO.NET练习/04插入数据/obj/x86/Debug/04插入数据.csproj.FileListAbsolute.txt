@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\04插入数据\bin\Debug\04插入数据.exe
+E:\C#\ADO.NET练习\04插入数据\bin\Debug\04插入数据.pdb
+E:\C#\ADO.NET练习\04插入数据\obj\x86\Debug\_04插入数据.Form1.resources
+E:\C#\ADO.NET练习\04插入数据\obj\x86\Debug\_04插入数据.Properties.Resources.resources
+E:\C#\ADO.NET练习\04插入数据\obj\x86\Debug\04插入数据.exe
+E:\C#\ADO.NET练习\04插入数据\obj\x86\Debug\04插入数据.pdb
+E:\C#\ADO.NET练习\04插入数据\obj\x86\Debug\04插入数据.csproj.GenerateResource.Cache

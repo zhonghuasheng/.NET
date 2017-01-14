@@ -1,0 +1,10 @@
+﻿<Window x:Class="_11Binding对数据的转换和校验.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="txtBox1" Margin="5"/>
+        <Slider x:Name="sliTest" Minimum="0" Maximum="200" Margin="5"></Slider>
+        <!--当slider指示到199的时候textbox不显示红框，原因是没有对binding的目标进行验证-->
+    </StackPanel>
+</Window>

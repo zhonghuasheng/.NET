@@ -1,0 +1,12 @@
+E:\C#\WPF\034嵌套布局容器\bin\Debug\034嵌套布局容器.exe
+E:\C#\WPF\034嵌套布局容器\bin\Debug\034嵌套布局容器.pdb
+E:\C#\WPF\034嵌套布局容器\obj\Debug\034嵌套布局容器.csprojResolveAssemblyReference.cache
+E:\C#\WPF\034嵌套布局容器\obj\Debug\MainWindow.baml
+E:\C#\WPF\034嵌套布局容器\obj\Debug\MainWindow.g.cs
+E:\C#\WPF\034嵌套布局容器\obj\Debug\App.g.cs
+E:\C#\WPF\034嵌套布局容器\obj\Debug\034嵌套布局容器_MarkupCompile.cache
+E:\C#\WPF\034嵌套布局容器\obj\Debug\034嵌套布局容器.g.resources
+E:\C#\WPF\034嵌套布局容器\obj\Debug\_034嵌套布局容器.Properties.Resources.resources
+E:\C#\WPF\034嵌套布局容器\obj\Debug\034嵌套布局容器.csproj.GenerateResource.Cache
+E:\C#\WPF\034嵌套布局容器\obj\Debug\034嵌套布局容器.exe
+E:\C#\WPF\034嵌套布局容器\obj\Debug\034嵌套布局容器.pdb

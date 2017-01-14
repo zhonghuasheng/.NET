@@ -1,0 +1,8 @@
+﻿<Window x:Class="_10使用ObjectDataProvider对象作为Binding的Source.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="BtnTest" Width="120" Height="36" Click="BtnTest_OnClick">测试ObjectDataProvider</Button>
+    </Grid>
+</Window>

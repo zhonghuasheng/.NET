@@ -1,0 +1,4 @@
+E:\C#\ADO.NET练习\18数据读取器SqlDataReader的使用\bin\Debug\18数据读取器SqlDataReader的使用.exe
+E:\C#\ADO.NET练习\18数据读取器SqlDataReader的使用\bin\Debug\18数据读取器SqlDataReader的使用.pdb
+E:\C#\ADO.NET练习\18数据读取器SqlDataReader的使用\obj\x86\Debug\18数据读取器SqlDataReader的使用.exe
+E:\C#\ADO.NET练习\18数据读取器SqlDataReader的使用\obj\x86\Debug\18数据读取器SqlDataReader的使用.pdb

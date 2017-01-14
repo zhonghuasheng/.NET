@@ -1,0 +1,26 @@
+﻿<Window x:Class="PanelDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:myControl="clr-namespace:PanelDemo.Controls"
+        x:Name="window"
+        Title="MainWindow"
+        Width="525"
+        Height="350">
+    <Window.Resources>
+        <Storyboard x:Key="sb_1">
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="window" Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="0" Value="#FF6AA871" />
+                <EasingColorKeyFrame KeyTime="0:0:1" Value="#FF1E5481" />
+            </ColorAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource sb_1}" />
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <myControl:MenuControl x:Name="MenuControl" VerticalAlignment="Top" />
+        <myControl:ToolbarControl x:Name="ToolBarController" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>

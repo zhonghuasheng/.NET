@@ -1,0 +1,10 @@
+﻿<Window x:Class="GridTestDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Margin测试" Height="350" Width="525">
+    <Grid>
+        <TextBlock Text="测试而已，不必紧张!" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <ComboBox Margin="0,10,10,0" Height="25" Width="Auto"  VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <TextBox Margin="10,40,10,4" BorderBrush="Black"/><!-->Margin是相对于整个窗体而言的<-->
+    </Grid>
+</Window>

@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\13DateSet运用\bin\Debug\13DateSet运用.exe
+E:\C#\ADO.NET练习\13DateSet运用\bin\Debug\13DateSet运用.pdb
+E:\C#\ADO.NET练习\13DateSet运用\obj\x86\Debug\_13DateSet运用.Form1.resources
+E:\C#\ADO.NET练习\13DateSet运用\obj\x86\Debug\_13DateSet运用.Properties.Resources.resources
+E:\C#\ADO.NET练习\13DateSet运用\obj\x86\Debug\13DateSet运用.exe
+E:\C#\ADO.NET练习\13DateSet运用\obj\x86\Debug\13DateSet运用.pdb
+E:\C#\ADO.NET练习\13DateSet运用\obj\x86\Debug\13DateSet运用.csproj.GenerateResource.Cache

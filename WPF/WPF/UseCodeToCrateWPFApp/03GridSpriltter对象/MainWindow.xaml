@@ -1,0 +1,20 @@
+﻿<Window x:Class="_03GridSpriltter对象.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Name="GridSplitterTest" ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="button1" Grid.RowSpan="3" Content="左边"></Button>
+        <GridSplitter Name="gs1" Grid.Row="0" Grid.RowSpan="3" Width="3" Background="Red"></GridSplitter>
+        <GridSplitter Name="gs2" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Stretch" Height="3"  Background="RoyalBlue" />
+    </Grid>
+</Window>

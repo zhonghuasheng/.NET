@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OESModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="OESEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="exam" EntityType="OESModel.exam" />
+    <EntitySet Name="exampaper" EntityType="OESModel.exampaper" />
+    <EntitySet Name="question" EntityType="OESModel.question" />
+    <EntitySet Name="recordanswer" EntityType="OESModel.recordanswer" />
+    <EntitySet Name="role" EntityType="OESModel.role" />
+    <EntitySet Name="score" EntityType="OESModel.score" />
+    <EntitySet Name="user" EntityType="OESModel.user" />
+  </EntityContainer>
+  <EntityType Name="exam">
+    <Key>
+      <PropertyRef Name="exam_id" />
+    </Key>
+    <Property Name="exam_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="create_time" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="single_question_score" Type="Int32" Nullable="false" />
+    <Property Name="quantity" Type="Int32" Nullable="false" />
+    <Property Name="total_score" Type="Int32" Nullable="false" />
+    <Property Name="duration" Type="Int32" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="pass_score" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="exampaper">
+    <Key>
+      <PropertyRef Name="exam_id" />
+      <PropertyRef Name="question_id" />
+    </Key>
+    <Property Name="exam_id" Type="Int32" Nullable="false" />
+    <Property Name="question_id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="question">
+    <Key>
+      <PropertyRef Name="question_id" />
+    </Key>
+    <Property Name="question_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="option_a" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="option_b" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="option_c" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="option_d" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="answer" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="state" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="recordanswer">
+    <Key>
+      <PropertyRef Name="exam_id" />
+      <PropertyRef Name="username" />
+      <PropertyRef Name="question_id" />
+      <PropertyRef Name="user_answer" />
+    </Key>
+    <Property Name="exam_id" Type="Int32" Nullable="false" />
+    <Property Name="username" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="question_id" Type="Int32" Nullable="false" />
+    <Property Name="user_answer" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="role">
+    <Key>
+      <PropertyRef Name="role_id" />
+      <PropertyRef Name="type" />
+    </Key>
+    <Property Name="role_id" Type="Int32" Nullable="false" />
+    <Property Name="type" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="score">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="exam_id" Type="Int32" Nullable="false" />
+    <Property Name="grade" Type="Int32" Nullable="false" />
+    <Property Name="attend_time" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="end_time" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="current_exampaper_question_id" Type="Int32" Nullable="false" />
+    <Property Name="is_finished" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="role_id" Type="Int32" Nullable="false" />
+    <Property Name="telephone" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="gender" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="address" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="chinese_name" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="language" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

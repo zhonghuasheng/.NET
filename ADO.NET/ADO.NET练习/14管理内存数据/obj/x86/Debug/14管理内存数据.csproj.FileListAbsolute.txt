@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\14管理内存数据\obj\x86\Debug\_14管理内存数据.Form1.resources
+E:\C#\ADO.NET练习\14管理内存数据\obj\x86\Debug\_14管理内存数据.Properties.Resources.resources
+E:\C#\ADO.NET练习\14管理内存数据\bin\Debug\14管理内存数据.exe
+E:\C#\ADO.NET练习\14管理内存数据\bin\Debug\14管理内存数据.pdb
+E:\C#\ADO.NET练习\14管理内存数据\obj\x86\Debug\14管理内存数据.exe
+E:\C#\ADO.NET练习\14管理内存数据\obj\x86\Debug\14管理内存数据.pdb
+E:\C#\ADO.NET练习\14管理内存数据\obj\x86\Debug\14管理内存数据.csproj.GenerateResource.Cache

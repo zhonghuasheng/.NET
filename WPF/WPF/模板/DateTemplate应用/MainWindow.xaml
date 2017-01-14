@@ -1,0 +1,34 @@
+﻿<Window x:Class="DateTemplate应用.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:DateTemplate应用"
+        xmlns:collections="clr-namespace:System.Collections;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <!--DataTemplate-->
+        <DataTemplate DataType="{x:Type local:Unit}" x:Key="myTemplate">
+            <Grid>
+                <StackPanel Orientation="Horizontal">
+                    <Grid>
+                        <Rectangle Stroke="Yellow" Fill="Orange" Width="{Binding Price}"/>
+                        <TextBlock Text="{Binding Year}"/>
+                    </Grid>
+                    <TextBlock Text="{Binding Price}" Margin="5,0"/>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+        <!--数据源-->
+        <collections:ArrayList x:Key="ds">
+            <local:Unit Year="2001" Price="100"/>
+            <local:Unit Year="2002" Price="120"/>
+            <local:Unit Year="2003" Price="140"/>
+            <local:Unit Year="2004" Price="160"/>
+            <local:Unit Year="2006" Price="180"/>
+            <local:Unit Year="2008" Price="200"/>
+        </collections:ArrayList>
+    </Window.Resources>
+    <StackPanel>
+        <ListBox ItemsSource="{StaticResource ds}" ItemTemplate="{StaticResource myTemplate}"/>
+        <ComboBox ItemsSource="{StaticResource ds}" ItemTemplate="{StaticResource myTemplate}"/>
+    </StackPanel>
+</Window>

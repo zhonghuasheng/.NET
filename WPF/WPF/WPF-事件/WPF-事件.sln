@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01使用WPF内置路由事件", "01使用WPF内置路由事件\01使用WPF内置路由事件.csproj", "{43CD35D2-176F-4C73-B155-7033183A5EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01在XAML中设置WPF的路由事件", "01在XAML中设置WPF的路由事件\01在XAML中设置WPF的路由事件.csproj", "{78CC78A4-9F87-4C64-9AC1-8B0F9D715033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02自定义路由事件", "02自定义路由事件\02自定义路由事件.csproj", "{E69B5CD7-1338-4F6B-895C-054CCAA0BB0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02自定义事件-完整版", "02自定义事件-完整版\02自定义事件-完整版.csproj", "{C86B9732-9E05-4AAE-8B19-C7485E363537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03RoutedEventArgs的Source与OriginalSource", "03RoutedEventArgs的Source与OriginalSource\03RoutedEventArgs的Source与OriginalSource.csproj", "{1D3C4DFF-EE27-4033-8C56-8B3817511604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04附加事件", "04附加事件\04附加事件.csproj", "{EB51AB4D-7729-4286-BC61-D3C5FD9A3AB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43CD35D2-176F-4C73-B155-7033183A5EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CD35D2-176F-4C73-B155-7033183A5EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CD35D2-176F-4C73-B155-7033183A5EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CD35D2-176F-4C73-B155-7033183A5EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CC78A4-9F87-4C64-9AC1-8B0F9D715033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CC78A4-9F87-4C64-9AC1-8B0F9D715033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CC78A4-9F87-4C64-9AC1-8B0F9D715033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CC78A4-9F87-4C64-9AC1-8B0F9D715033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69B5CD7-1338-4F6B-895C-054CCAA0BB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69B5CD7-1338-4F6B-895C-054CCAA0BB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69B5CD7-1338-4F6B-895C-054CCAA0BB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69B5CD7-1338-4F6B-895C-054CCAA0BB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86B9732-9E05-4AAE-8B19-C7485E363537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86B9732-9E05-4AAE-8B19-C7485E363537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86B9732-9E05-4AAE-8B19-C7485E363537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86B9732-9E05-4AAE-8B19-C7485E363537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D3C4DFF-EE27-4033-8C56-8B3817511604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3C4DFF-EE27-4033-8C56-8B3817511604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3C4DFF-EE27-4033-8C56-8B3817511604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3C4DFF-EE27-4033-8C56-8B3817511604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB51AB4D-7729-4286-BC61-D3C5FD9A3AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB51AB4D-7729-4286-BC61-D3C5FD9A3AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB51AB4D-7729-4286-BC61-D3C5FD9A3AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB51AB4D-7729-4286-BC61-D3C5FD9A3AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

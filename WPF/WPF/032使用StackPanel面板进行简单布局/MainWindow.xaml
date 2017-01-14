@@ -1,0 +1,24 @@
+﻿<Window x:Class="_032使用StackPanel面板进行简单布局.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <!--添加鼠标右键-->
+    <Window.ContextMenu>
+        <ContextMenu>kkkk</ContextMenu>
+    </Window.ContextMenu>
+    <Border Padding="5" Background="LightBlue" BorderBrush="Red" BorderThickness="3,15,13,50" CornerRadius="18" VerticalAlignment="Top">
+        <StackPanel Orientation="Vertical" Margin="10">
+            <Button HorizontalAlignment="Right">你好</Button>
+            <TextBox Name="txtUserName" GotFocus="txtUserName_GotFocus" LostFocus="txtUserName_LostFocus">[这是啥啊]</TextBox>
+            <Button Name="btnHello" HorizontalAlignment="Left" Margin="10" Click="btnHello_Click">我好</Button>
+            <Button HorizontalAlignment="Center">Center</Button>
+            
+            <Button>    
+                adfaa
+            </Button>
+            <Button>32142</Button>
+            <Button>324124</Button>
+            <Button>423414</Button>
+        </StackPanel>
+    </Border>
+</Window>

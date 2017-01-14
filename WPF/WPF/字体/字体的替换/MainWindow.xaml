@@ -1,0 +1,33 @@
+﻿<Window x:Class="字体的替换.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="550" Width="525">
+    <StackPanel>
+        <Button Cursor="Help" FontFamily="Technical Italic,Comic Sans MS,Arial">A Button</Button>
+        <Polygon Points="100,25 125,0 200,25 125,50" Fill="Green"></Polygon>
+        <Polygon Points="100,25 75,0 0,25 75,50" Fill="Red"></Polygon>
+        <Label Target="{Binding ElementName=txtA}">chose __A</Label>
+        <TextBox Name="txtA" TextWrapping="WrapWithOverflow"></TextBox>
+        <Button Name="BtnText" IsCancel="True" Width="120" Height="36" Click="BtnText_OnClick">IsCancel</Button>
+        <Button Name="BtnText2" IsDefault="True" Width="120" Height="36" Margin="5" ToolTip="你好啊" Click="BtnText2_OnClick" >IsDefault</Button>
+        <TextBox Name="TxtTest2"></TextBox>
+        <ToggleButton Width="120" Height="36" Margin="5"  Checked="ToggleButton_Checked">fhh</ToggleButton>
+        <RepeatButton Name="Rep" Height="36" Width="120" Margin="5" Click="Rep_OnClick">repeatbutton</RepeatButton>
+        <CheckBox Name="CheckBox">
+            text
+        </CheckBox>
+        <GroupBox Margin="5">
+            <StackPanel>
+                <RadioButton IsChecked="True">1</RadioButton>
+                <RadioButton>2</RadioButton>
+                <RadioButton>3</RadioButton>
+            </StackPanel>
+        </GroupBox>
+        <RadioButton GroupName="1">11</RadioButton>
+        <RadioButton GroupName="1">12</RadioButton>
+        <RadioButton GroupName="2">13</RadioButton>
+        <Button ToolTip="This is my tooltip"  ToolTipService.Placement="Bottom">Placement test
+            </Button>
+        <Button ToolTip="fafdsafa" ToolTipService.InitialShowDelay="1000"></Button>
+    </StackPanel>
+</Window>

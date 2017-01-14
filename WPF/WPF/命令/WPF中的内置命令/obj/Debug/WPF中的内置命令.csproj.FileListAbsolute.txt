@@ -1,0 +1,11 @@
+E:\C#\WPF\命令\WPF中的内置命令\obj\Debug\MainWindow.baml
+E:\C#\WPF\命令\WPF中的内置命令\obj\Debug\MainWindow.g.cs
+E:\C#\WPF\命令\WPF中的内置命令\obj\Debug\App.g.cs
+E:\C#\WPF\命令\WPF中的内置命令\obj\Debug\WPF中的内置命令_MarkupCompile.cache
+E:\C#\WPF\命令\WPF中的内置命令\obj\Debug\WPF中的内置命令.g.resources
+E:\C#\WPF\命令\WPF中的内置命令\obj\Debug\WPF中的内置命令.Properties.Resources.resources
+E:\C#\WPF\命令\WPF中的内置命令\obj\Debug\WPF中的内置命令.csproj.GenerateResource.Cache
+E:\C#\WPF\命令\WPF中的内置命令\bin\Debug\WPF中的内置命令.exe
+E:\C#\WPF\命令\WPF中的内置命令\bin\Debug\WPF中的内置命令.pdb
+E:\C#\WPF\命令\WPF中的内置命令\obj\Debug\WPF中的内置命令.exe
+E:\C#\WPF\命令\WPF中的内置命令\obj\Debug\WPF中的内置命令.pdb

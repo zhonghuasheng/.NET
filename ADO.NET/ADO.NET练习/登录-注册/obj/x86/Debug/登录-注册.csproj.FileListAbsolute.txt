@@ -1,0 +1,9 @@
+E:\C#\ADO.NET练习\登录-注册\bin\Debug\Load.mdf
+E:\C#\ADO.NET练习\登录-注册\bin\Debug\Load_log.ldf
+E:\C#\ADO.NET练习\登录-注册\bin\Debug\登录-注册.exe
+E:\C#\ADO.NET练习\登录-注册\bin\Debug\登录-注册.pdb
+E:\C#\ADO.NET练习\登录-注册\obj\x86\Debug\登录_注册.Form1.resources
+E:\C#\ADO.NET练习\登录-注册\obj\x86\Debug\登录_注册.Properties.Resources.resources
+E:\C#\ADO.NET练习\登录-注册\obj\x86\Debug\登录-注册.exe
+E:\C#\ADO.NET练习\登录-注册\obj\x86\Debug\登录-注册.pdb
+E:\C#\ADO.NET练习\登录-注册\obj\x86\Debug\登录-注册.csproj.GenerateResource.Cache

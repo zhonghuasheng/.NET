@@ -1,0 +1,25 @@
+﻿<Window x:Class="TestStringReplace.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Name="lbText" Content="输入测试字符串:" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+            <TextBox Name="txtInput" Grid.Row="0" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"/>
+            <ComboBox Name="cmbTest" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="80"/>
+            <Button Name="btnTest" Content="测试" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="80"
+                    Click="btnTest_Click"/>
+            <TextBox Name="txtOutput" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+</Window>

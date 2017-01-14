@@ -1,0 +1,22 @@
+﻿<Window x:Class="Style中的DataTrigger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Style中的DataTrigger"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local:L2BConverter x:Key="cvtr"/>
+        <Style TargetType="TextBox">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding RelativeSource={x:Static RelativeSource.Self},Path=Text.Length,Converter={StaticResource cvtr}}" Value="false">
+                    <Setter Property="BorderBrush" Value="Red"/>
+                    <Setter Property="BorderThickness" Value="11"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <StackPanel>
+        <TextBox Margin="5"/>
+        <TextBox Margin="5"/>
+        <TextBox Margin="5"/>
+    </StackPanel>
+</Window>

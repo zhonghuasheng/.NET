@@ -1,0 +1,51 @@
+﻿<Window x:Class="统一设置一组控件的样式.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:统一设置一组控件的样式"
+        Title="{x:Static local:MainWindow.WindowTitle}" Height="350" Width="525">
+    <Window.Resources>
+        <Style x:Key="{x:Type Button}" TargetType="{x:Type Button}">
+            <Setter Property="Width" Value="60"/>
+            <Setter Property="Height" Value="36"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        
+        <XmlDataProvider x:Key="MyData" XPath="Properties/Fruits">
+            <x:XData>
+                <Supermarket xmlns="">
+                    <Fruit>
+                        <Fruit Name="Peach"/>
+                        <Fruit Name="Banana"/>
+                        <Fruit Name="Orangle"/>
+                    </Fruit>
+                    <Drinks>
+                        <Drink Name="Coca Cola"/>
+                        <Drink Name="PEPSI Cola"/>
+                    </Drinks>
+                </Supermarket>
+            </x:XData>
+        </XmlDataProvider>
+    </Window.Resources>
+    <StackPanel>
+        <Button Content="OK"/>
+        <Button Content="OK"/>
+        <Button Content="OK"/>
+        <Button Content="OK" Style="{x:Null}"/>
+        <Button Content="Hello">
+            <Button.Style>
+                <x:Null/>
+            </Button.Style>
+        </Button>
+        <ListBox Margin="5">
+            <ListBox.ItemsSource>
+                <x:Array Type="sys:String">
+                    <sys:String>Trim</sys:String>
+                    <sys:String>Tom</sys:String>
+                    <sys:String>Vitor</sys:String>
+                </x:Array>
+            </ListBox.ItemsSource>
+        </ListBox>
+        <TextBlock Text="{x:Static local:MainWindow.ShowText}"/>
+    </StackPanel>
+</Window>

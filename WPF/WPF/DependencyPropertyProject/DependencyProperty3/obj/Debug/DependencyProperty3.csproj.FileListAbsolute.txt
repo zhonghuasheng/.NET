@@ -1,0 +1,13 @@
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\bin\Debug\DependencyProperty3.exe
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\bin\Debug\DependencyProperty3.pdb
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\obj\Debug\DependencyProperty3.csprojResolveAssemblyReference.cache
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\obj\Debug\MainWindow.baml
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\obj\Debug\MainWindow.g.cs
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\obj\Debug\App.g.cs
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\obj\Debug\DependencyProperty3_MarkupCompile.cache
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\obj\Debug\DependencyProperty3.g.resources
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\obj\Debug\DependencyProperty3.Properties.Resources.resources
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\obj\Debug\DependencyProperty3.csproj.GenerateResource.Cache
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\obj\Debug\DependencyProperty3.exe
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\obj\Debug\DependencyProperty3.pdb
+E:\C#\WPF\DependencyPropertyProject\DependencyProperty3\obj\Debug\DependencyProperty3_MarkupCompile.lref

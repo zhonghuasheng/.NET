@@ -1,0 +1,12 @@
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\bin\Debug\06没有Path的绑定.exe
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\bin\Debug\06没有Path的绑定.pdb
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\obj\Debug\06没有Path的绑定.csprojResolveAssemblyReference.cache
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\obj\Debug\MainWindow.baml
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\obj\Debug\MainWindow.g.cs
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\obj\Debug\App.g.cs
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\obj\Debug\06没有Path的绑定_MarkupCompile.cache
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\obj\Debug\06没有Path的绑定.g.resources
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\obj\Debug\_06没有Path的绑定.Properties.Resources.resources
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\obj\Debug\06没有Path的绑定.csproj.GenerateResource.Cache
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\obj\Debug\06没有Path的绑定.exe
+E:\C#\WPF\数据绑定练习\06没有Path的绑定\obj\Debug\06没有Path的绑定.pdb

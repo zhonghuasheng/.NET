@@ -1,0 +1,9 @@
+E:\C#\ADO.NET练习\合并DataSet中的内容\bin\Debug\合并DataSet中的内容.exe
+E:\C#\ADO.NET练习\合并DataSet中的内容\bin\Debug\合并DataSet中的内容.pdb
+E:\C#\ADO.NET练习\合并DataSet中的内容\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C#\ADO.NET练习\合并DataSet中的内容\obj\x86\Debug\合并DataSet中的内容.Form1.resources
+E:\C#\ADO.NET练习\合并DataSet中的内容\obj\x86\Debug\合并DataSet中的内容.Properties.Resources.resources
+E:\C#\ADO.NET练习\合并DataSet中的内容\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\C#\ADO.NET练习\合并DataSet中的内容\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\C#\ADO.NET练习\合并DataSet中的内容\obj\x86\Debug\合并DataSet中的内容.exe
+E:\C#\ADO.NET练习\合并DataSet中的内容\obj\x86\Debug\合并DataSet中的内容.pdb

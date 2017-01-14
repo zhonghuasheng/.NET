@@ -1,0 +1,19 @@
+﻿<Window x:Class="工具栏功能的样式.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <!--数据源-->
+        <XmlDataProvider x:Key="Ds" Source="Data.xml" XPath="Data/Operation"/>
+        <!--Operation模板-->
+        <HierarchicalDataTemplate DataType="Operation" ItemsSource="{Binding XPath=Operation}">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{Binding XPath=@Name}" Margin="10,0"/>
+                <TextBlock Text="{Binding XPath=@Gesture}"/>
+            </StackPanel>
+        </HierarchicalDataTemplate>
+    </Window.Resources>
+    <StackPanel>
+        <Menu ItemsSource="{Binding Source={StaticResource Ds}}"></Menu>
+    </StackPanel>
+</Window>

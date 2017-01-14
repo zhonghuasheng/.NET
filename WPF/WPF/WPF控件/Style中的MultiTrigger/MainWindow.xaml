@@ -1,0 +1,27 @@
+﻿<Window x:Class="Style中的MultiTrigger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="CheckBox">
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsChecked" Value="True"/>
+                        <Condition Property="Content" Value="正如我轻轻的来"/>
+                    </MultiTrigger.Conditions>
+                    <MultiTrigger.Setters>
+                        <Setter Property="FontSize" Value="20"/>
+                        <Setter Property="Foreground" Value="Orange"/>
+                    </MultiTrigger.Setters>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <StackPanel>
+        <CheckBox Content="轻轻的我走了"/>
+        <CheckBox Content="正如我轻轻的来"/>
+        <CheckBox Content="我轻轻的招手"/>
+        <CheckBox Content="不带走一片云彩"/>
+    </StackPanel>
+</Window>

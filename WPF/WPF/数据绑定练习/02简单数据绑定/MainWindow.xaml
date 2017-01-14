@@ -1,0 +1,13 @@
+﻿<Window x:Class="_02简单数据绑定.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:_02简单数据绑定"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local:Person x:Key="MyPerson" PersonName="杰克"></local:Person>
+    </Window.Resources>
+    <StackPanel>
+        <TextBox Name="TxtTest1" Text="{Binding Source={StaticResource MyPerson}, Path=PersonName}"></TextBox>
+        <Button Name="BtnTest" Height="36" Click="BtnTest_OnClick">修改下试试</Button>
+    </StackPanel>
+</Window>

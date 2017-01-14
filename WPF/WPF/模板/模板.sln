@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "模板", "模板\模板.csproj", "{EF66DAED-A2F0-4DE5-9385-FE7AF397BE80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemsControl的PanelTemplate", "ItemsControl的PanelTemplate\ItemsControl的PanelTemplate.csproj", "{88F1A02E-D8CC-4325-B670-C6CC4A74A0C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfApplication1\WpfApplication1.csproj", "{E46CEF25-2B33-49AB-8E5A-4809EBEF77DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WodeKongjian", "C:\Users\yong\Desktop\WodeKongjian\WodeKongjian\WodeKongjian.csproj", "{04F0E910-83C6-4FD2-8761-649AE674A3FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication2", "WpfApplication2\WpfApplication2.csproj", "{D2EA03BA-A65E-4E4E-8153-7AE5375629A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "圆角TextBox", "圆角TextBox\圆角TextBox.csproj", "{8F7D359E-9393-4F79-8EE4-31670D160ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTemplate应用", "DateTemplate应用\DateTemplate应用.csproj", "{2EC59562-9BEE-4B4F-BAF4-B8E8DB30FFF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLDataTemplate", "XMLDataTemplate\XMLDataTemplate.csproj", "{2839D46B-4634-467B-B90E-EFB88B6FDF38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF66DAED-A2F0-4DE5-9385-FE7AF397BE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF66DAED-A2F0-4DE5-9385-FE7AF397BE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF66DAED-A2F0-4DE5-9385-FE7AF397BE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF66DAED-A2F0-4DE5-9385-FE7AF397BE80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F1A02E-D8CC-4325-B670-C6CC4A74A0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F1A02E-D8CC-4325-B670-C6CC4A74A0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F1A02E-D8CC-4325-B670-C6CC4A74A0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F1A02E-D8CC-4325-B670-C6CC4A74A0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46CEF25-2B33-49AB-8E5A-4809EBEF77DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46CEF25-2B33-49AB-8E5A-4809EBEF77DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46CEF25-2B33-49AB-8E5A-4809EBEF77DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46CEF25-2B33-49AB-8E5A-4809EBEF77DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F0E910-83C6-4FD2-8761-649AE674A3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F0E910-83C6-4FD2-8761-649AE674A3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F0E910-83C6-4FD2-8761-649AE674A3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F0E910-83C6-4FD2-8761-649AE674A3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EA03BA-A65E-4E4E-8153-7AE5375629A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EA03BA-A65E-4E4E-8153-7AE5375629A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EA03BA-A65E-4E4E-8153-7AE5375629A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EA03BA-A65E-4E4E-8153-7AE5375629A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7D359E-9393-4F79-8EE4-31670D160ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7D359E-9393-4F79-8EE4-31670D160ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7D359E-9393-4F79-8EE4-31670D160ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7D359E-9393-4F79-8EE4-31670D160ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC59562-9BEE-4B4F-BAF4-B8E8DB30FFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC59562-9BEE-4B4F-BAF4-B8E8DB30FFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC59562-9BEE-4B4F-BAF4-B8E8DB30FFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC59562-9BEE-4B4F-BAF4-B8E8DB30FFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2839D46B-4634-467B-B90E-EFB88B6FDF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2839D46B-4634-467B-B90E-EFB88B6FDF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2839D46B-4634-467B-B90E-EFB88B6FDF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2839D46B-4634-467B-B90E-EFB88B6FDF38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="OESModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="OESModelStoreContainer">
+          <EntitySet Name="exam" EntityType="OESModel.Store.exam" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="exampaper" EntityType="OESModel.Store.exampaper" store:Type="Tables" store:Schema="dbo" store:Name="exampaper">
+            <DefiningQuery>SELECT 
+      [exampaper].[exam_id] AS [exam_id], 
+      [exampaper].[question_id] AS [question_id]
+      FROM [dbo].[exampaper] AS [exampaper]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="question" EntityType="OESModel.Store.question" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="recordanswer" EntityType="OESModel.Store.recordanswer" store:Type="Tables" store:Schema="dbo" store:Name="recordanswer">
+            <DefiningQuery>SELECT 
+      [recordanswer].[exam_id] AS [exam_id], 
+      [recordanswer].[username] AS [username], 
+      [recordanswer].[question_id] AS [question_id], 
+      [recordanswer].[user_answer] AS [user_answer]
+      FROM [dbo].[recordanswer] AS [recordanswer]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="role" EntityType="OESModel.Store.role" store:Type="Tables" store:Schema="dbo" store:Name="role">
+            <DefiningQuery>SELECT 
+      [role].[role_id] AS [role_id], 
+      [role].[type] AS [type]
+      FROM [dbo].[role] AS [role]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="score" EntityType="OESModel.Store.score" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="user" EntityType="OESModel.Store.user" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="exam">
+          <Key>
+            <PropertyRef Name="exam_id" />
+          </Key>
+          <Property Name="exam_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="create_time" Type="datetime" Nullable="false" />
+          <Property Name="single_question_score" Type="int" Nullable="false" />
+          <Property Name="quantity" Type="int" Nullable="false" />
+          <Property Name="total_score" Type="int" Nullable="false" />
+          <Property Name="duration" Type="int" Nullable="false" />
+          <Property Name="description" Type="varchar" MaxLength="45" />
+          <Property Name="pass_score" Type="int" Nullable="false" />
+        </EntityType>
+        <!--生成过程中发现错误:
+      警告 6002: 表/视图“OES.dbo.exampaper”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+        <EntityType Name="exampaper">
+          <Key>
+            <PropertyRef Name="exam_id" />
+            <PropertyRef Name="question_id" />
+          </Key>
+          <Property Name="exam_id" Type="int" Nullable="false" />
+          <Property Name="question_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="question">
+          <Key>
+            <PropertyRef Name="question_id" />
+          </Key>
+          <Property Name="question_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="title" Type="varchar" Nullable="false" MaxLength="1000" />
+          <Property Name="option_a" Type="varchar" Nullable="false" MaxLength="1000" />
+          <Property Name="option_b" Type="varchar" Nullable="false" MaxLength="1000" />
+          <Property Name="option_c" Type="varchar" Nullable="false" MaxLength="1000" />
+          <Property Name="option_d" Type="varchar" Nullable="false" MaxLength="1000" />
+          <Property Name="answer" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="state" Type="int" Nullable="false" />
+        </EntityType>
+        <!--生成过程中发现错误:
+      警告 6002: 表/视图“OES.dbo.recordanswer”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+        <EntityType Name="recordanswer">
+          <Key>
+            <PropertyRef Name="exam_id" />
+            <PropertyRef Name="username" />
+            <PropertyRef Name="question_id" />
+            <PropertyRef Name="user_answer" />
+          </Key>
+          <Property Name="exam_id" Type="int" Nullable="false" />
+          <Property Name="username" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="question_id" Type="int" Nullable="false" />
+          <Property Name="user_answer" Type="char" Nullable="false" MaxLength="1" />
+        </EntityType>
+        <!--生成过程中发现错误:
+      警告 6002: 表/视图“OES.dbo.role”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+        <EntityType Name="role">
+          <Key>
+            <PropertyRef Name="role_id" />
+            <PropertyRef Name="type" />
+          </Key>
+          <Property Name="role_id" Type="int" Nullable="false" />
+          <Property Name="type" Type="varchar" Nullable="false" MaxLength="45" />
+        </EntityType>
+        <EntityType Name="score">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="exam_id" Type="int" Nullable="false" />
+          <Property Name="grade" Type="int" Nullable="false" />
+          <Property Name="attend_time" Type="datetime" Nullable="false" />
+          <Property Name="end_time" Type="datetime" Nullable="false" />
+          <Property Name="current_exampaper_question_id" Type="int" Nullable="false" />
+          <Property Name="is_finished" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="password" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="role_id" Type="int" Nullable="false" />
+          <Property Name="telephone" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="gender" Type="char" Nullable="false" MaxLength="1" />
+          <Property Name="email" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="address" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="chinese_name" Type="varchar" MaxLength="45" />
+          <Property Name="language" Type="varchar" MaxLength="45" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="OESModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="OESEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="exam" EntityType="OESModel.exam" />
+          <EntitySet Name="exampaper" EntityType="OESModel.exampaper" />
+          <EntitySet Name="question" EntityType="OESModel.question" />
+          <EntitySet Name="recordanswer" EntityType="OESModel.recordanswer" />
+          <EntitySet Name="role" EntityType="OESModel.role" />
+          <EntitySet Name="score" EntityType="OESModel.score" />
+          <EntitySet Name="user" EntityType="OESModel.user" />
+        </EntityContainer>
+        <EntityType Name="exam">
+          <Key>
+            <PropertyRef Name="exam_id" />
+          </Key>
+          <Property Name="exam_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="create_time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="single_question_score" Type="Int32" Nullable="false" />
+          <Property Name="quantity" Type="Int32" Nullable="false" />
+          <Property Name="total_score" Type="Int32" Nullable="false" />
+          <Property Name="duration" Type="Int32" Nullable="false" />
+          <Property Name="description" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="pass_score" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="exampaper">
+          <Key>
+            <PropertyRef Name="exam_id" />
+            <PropertyRef Name="question_id" />
+          </Key>
+          <Property Name="exam_id" Type="Int32" Nullable="false" />
+          <Property Name="question_id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="question">
+          <Key>
+            <PropertyRef Name="question_id" />
+          </Key>
+          <Property Name="question_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="title" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="option_a" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="option_b" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="option_c" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="option_d" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="answer" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+          <Property Name="state" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="recordanswer">
+          <Key>
+            <PropertyRef Name="exam_id" />
+            <PropertyRef Name="username" />
+            <PropertyRef Name="question_id" />
+            <PropertyRef Name="user_answer" />
+          </Key>
+          <Property Name="exam_id" Type="Int32" Nullable="false" />
+          <Property Name="username" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="question_id" Type="Int32" Nullable="false" />
+          <Property Name="user_answer" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+        </EntityType>
+        <EntityType Name="role">
+          <Key>
+            <PropertyRef Name="role_id" />
+            <PropertyRef Name="type" />
+          </Key>
+          <Property Name="role_id" Type="Int32" Nullable="false" />
+          <Property Name="type" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="score">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="exam_id" Type="Int32" Nullable="false" />
+          <Property Name="grade" Type="Int32" Nullable="false" />
+          <Property Name="attend_time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="end_time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="current_exampaper_question_id" Type="Int32" Nullable="false" />
+          <Property Name="is_finished" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="password" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="role_id" Type="Int32" Nullable="false" />
+          <Property Name="telephone" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="gender" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+          <Property Name="email" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="address" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="chinese_name" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="language" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="OESModelStoreContainer" CdmEntityContainer="OESEntities">
+          <EntitySetMapping Name="exam">
+            <EntityTypeMapping TypeName="OESModel.exam">
+              <MappingFragment StoreEntitySet="exam">
+                <ScalarProperty Name="exam_id" ColumnName="exam_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="create_time" ColumnName="create_time" />
+                <ScalarProperty Name="single_question_score" ColumnName="single_question_score" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+                <ScalarProperty Name="total_score" ColumnName="total_score" />
+                <ScalarProperty Name="duration" ColumnName="duration" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="pass_score" ColumnName="pass_score" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="exampaper">
+            <EntityTypeMapping TypeName="OESModel.exampaper">
+              <MappingFragment StoreEntitySet="exampaper">
+                <ScalarProperty Name="exam_id" ColumnName="exam_id" />
+                <ScalarProperty Name="question_id" ColumnName="question_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="question">
+            <EntityTypeMapping TypeName="OESModel.question">
+              <MappingFragment StoreEntitySet="question">
+                <ScalarProperty Name="question_id" ColumnName="question_id" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="option_a" ColumnName="option_a" />
+                <ScalarProperty Name="option_b" ColumnName="option_b" />
+                <ScalarProperty Name="option_c" ColumnName="option_c" />
+                <ScalarProperty Name="option_d" ColumnName="option_d" />
+                <ScalarProperty Name="answer" ColumnName="answer" />
+                <ScalarProperty Name="state" ColumnName="state" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="recordanswer">
+            <EntityTypeMapping TypeName="OESModel.recordanswer">
+              <MappingFragment StoreEntitySet="recordanswer">
+                <ScalarProperty Name="exam_id" ColumnName="exam_id" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="question_id" ColumnName="question_id" />
+                <ScalarProperty Name="user_answer" ColumnName="user_answer" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="role">
+            <EntityTypeMapping TypeName="OESModel.role">
+              <MappingFragment StoreEntitySet="role">
+                <ScalarProperty Name="role_id" ColumnName="role_id" />
+                <ScalarProperty Name="type" ColumnName="type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="score">
+            <EntityTypeMapping TypeName="OESModel.score">
+              <MappingFragment StoreEntitySet="score">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="exam_id" ColumnName="exam_id" />
+                <ScalarProperty Name="grade" ColumnName="grade" />
+                <ScalarProperty Name="attend_time" ColumnName="attend_time" />
+                <ScalarProperty Name="end_time" ColumnName="end_time" />
+                <ScalarProperty Name="current_exampaper_question_id" ColumnName="current_exampaper_question_id" />
+                <ScalarProperty Name="is_finished" ColumnName="is_finished" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user">
+            <EntityTypeMapping TypeName="OESModel.user">
+              <MappingFragment StoreEntitySet="user">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="role_id" ColumnName="role_id" />
+                <ScalarProperty Name="telephone" ColumnName="telephone" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="chinese_name" ColumnName="chinese_name" />
+                <ScalarProperty Name="language" ColumnName="language" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

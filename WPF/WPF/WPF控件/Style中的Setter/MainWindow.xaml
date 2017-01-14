@@ -1,0 +1,19 @@
+﻿<Window x:Class="Style中的Setter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Style.Setters>
+                <Setter Property="FontSize" Value="24"/>
+                <Setter Property="TextDecorations" Value="Underline"/>
+                <Setter Property="FontStyle" Value="Italic"/>
+            </Style.Setters>
+        </Style>
+    </Window.Resources>
+    <StackPanel Margin="5">
+        <TextBlock Text="Hello Wpf"/>
+        <TextBlock Text="This is a sample"/>
+        <TextBlock Text="by time 2009" Style="{x:Null}"></TextBlock>
+    </StackPanel>
+</Window>

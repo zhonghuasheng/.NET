@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\03实现简单的用户登录程序\bin\Debug\Database3.mdf
+E:\C#\ADO.NET练习\03实现简单的用户登录程序\bin\Debug\Database3_log.ldf
+E:\C#\ADO.NET练习\03实现简单的用户登录程序\bin\Debug\03实现简单的用户登录程序.exe
+E:\C#\ADO.NET练习\03实现简单的用户登录程序\bin\Debug\03实现简单的用户登录程序.pdb
+E:\C#\ADO.NET练习\03实现简单的用户登录程序\obj\x86\Debug\03实现简单的用户登录程序.exe
+E:\C#\ADO.NET练习\03实现简单的用户登录程序\obj\x86\Debug\03实现简单的用户登录程序.pdb
+E:\C#\ADO.NET练习\03实现简单的用户登录程序\obj\x86\Debug\03实现简单的用户登录程序.csprojResolveAssemblyReference.cache

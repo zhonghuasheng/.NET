@@ -1,0 +1,11 @@
+﻿<Window x:Class="_04将控件作为绑定源.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox Name="TxtBox" BorderBrush="DeepSkyBlue" Height="35" Margin="5" 
+                 Text="{Binding ElementName=SliderTest,Path=Value,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <Slider Name="SliderTest" Margin="5" BorderBrush="DimGray" Maximum="100" Minimum="0"></Slider>
+        
+    </StackPanel>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="_01在XAML中设置WPF的路由事件.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid x:Name="gridRoot" Background="Lime" Button.Click="ButtonClicked">
+        <Grid x:Name="gridA" Background="Blue" Margin="10" Button.Click="ButtonClicked"><!--这里再写一个会捕捉两次-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Canvas x:Name="canvasLeft" Grid.Column="0" Background="Red" Margin="10">
+                <Button x:Name="buttonLeft" Content="Left" Width="40" Height="100" Margin="20"></Button>
+            </Canvas>
+            <Canvas x:Name="canvasRight" Grid.Column="1" Background="Yellow" Margin="10">
+                <Button x:Name="buttonRight" Content="Right" Width="40" Height="100" Margin="20"></Button>
+            </Canvas>
+        </Grid>
+    </Grid>
+</Window>

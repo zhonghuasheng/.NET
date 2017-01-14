@@ -1,0 +1,29 @@
+﻿<Window x:Class="_04共享尺寸组SharedSizeGroup.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Name="main" IsSharedSizeScope="True">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Name="top" Grid.Row="0" ShowGridLines="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition SharedSizeGroup="SSG"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Label Name="test1" Grid.Column="0">你好，和ishishui啊啊我们则高达哥哥啊哥哥然后我和我</Label>
+            <TextBlock Name="textBlock1" Grid.Column="1">测试你懂的</TextBlock>
+        </Grid>
+        <TextBlock Name="showMessage" Text="共享尺寸组" Grid.Row="1"></TextBlock>
+        <Grid Name="bottom" Grid.Row="2" ShowGridLines="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition SharedSizeGroup="SSG"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Label Name="test2" Grid.Column="0">fdafa</Label>
+        </Grid>
+    </Grid>
+</Window>

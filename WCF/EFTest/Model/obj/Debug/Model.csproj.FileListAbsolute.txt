@@ -1,0 +1,10 @@
+E:\C#\WPF\EFTest\Model\bin\Debug\Model.dll
+E:\C#\WPF\EFTest\Model\bin\Debug\Model.pdb
+E:\C#\WPF\EFTest\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\C#\WPF\EFTest\Model\obj\Debug\Model.dll
+E:\C#\WPF\EFTest\Model\obj\Debug\Model.pdb
+E:\C#\EFTest\Model\bin\Debug\Model.dll
+E:\C#\EFTest\Model\bin\Debug\Model.pdb
+E:\C#\EFTest\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\C#\EFTest\Model\obj\Debug\Model.dll
+E:\C#\EFTest\Model\obj\Debug\Model.pdb

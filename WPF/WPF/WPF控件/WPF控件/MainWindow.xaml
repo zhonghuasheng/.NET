@@ -1,0 +1,24 @@
+﻿<Window x:Class="TreeView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <!--数据源-->
+        <XmlDataProvider x:Key="ds" Source="Data.xml" XPath="Data/Grade"/>
+        <!--年级模板-->
+        <HierarchicalDataTemplate DataType="Grade" ItemsSource="{Binding XPath=Class}">
+            <TextBlock Text="{Binding XPath=@Name}"></TextBlock>
+        </HierarchicalDataTemplate>
+        <!--班级模板-->
+        <HierarchicalDataTemplate DataType="Class" ItemsSource="{Binding XPath=Group}">
+            <RadioButton Content="{Binding XPath=@Name}" GroupName="gn"></RadioButton>
+        </HierarchicalDataTemplate>
+        <!--小组模板-->
+        <HierarchicalDataTemplate DataType="Group" ItemsSource="{Binding XPath=Student}">
+            <CheckBox Content="{Binding XPath=@Name}"></CheckBox>
+        </HierarchicalDataTemplate>
+    </Window.Resources>
+    <Grid>
+        <TreeView ItemsSource="{Binding Source={StaticResource ds}}"></TreeView>
+    </Grid>
+</Window>

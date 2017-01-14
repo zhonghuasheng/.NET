@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="PanelDemo.Controls.ToolbarControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:myControl="clr-namespace:PanelDemo.Controls"
+             mc:Ignorable="d">
+    <Grid x:Name="RootGrid" Height="40">
+        <StackPanel x:Name="SmallToolbarPanel"
+                    Margin="0,0,0,-10"
+                    VerticalAlignment="Bottom"
+                    Panel.ZIndex="100"
+                    Orientation="Horizontal">
+            <myControl:ToolbarButtonControl x:Name="LuEventToolbar"
+                                            Width="120"
+                                            Margin="10,0,0,0"
+                                            FillColor="#FF19970C"
+                                            Text="鲁菜" />
+            <myControl:ToolbarButtonControl x:Name="YueEventToolbar"
+                                            Width="120"
+                                            Margin="10,0,0,0"
+                                            FillColor="#FF6B970C"
+                                            Text="粤菜" />
+            <myControl:ToolbarButtonControl x:Name="ChuanEventToolbar"
+                                            Width="120"
+                                            Margin="10,0,0,0"
+                                            FillColor="#FF770C97"
+                                            Text="川菜" />
+            <myControl:ToolbarButtonControl x:Name="SuEventToolbar"
+                                            Width="120"
+                                            Margin="10,0,0,0"
+                                            FillColor="#FF0C9197"
+                                            Text="苏菜" />
+            <myControl:ToolbarButtonControl x:Name="MinEventToolbar"
+                                            Width="120"
+                                            Margin="10,0,0,0"
+                                            FillColor="#FF972C0C"
+                                            Text="闽菜" />
+            <myControl:ToolbarButtonControl x:Name="ZheEventToolbar"
+                                            Width="120"
+                                            Margin="10,0,0,0"
+                                            FillColor="#FF970C58"
+                                            Text="浙菜" />
+            <myControl:ToolbarButtonControl x:Name="XiangEventToolbar"
+                                            Width="120"
+                                            Margin="10,0,0,0"
+                                            FillColor="#FF97710C"
+                                            Text="湘菜" />
+            <myControl:ToolbarButtonControl x:Name="HuiEventToolbar"
+                                            Width="120"
+                                            Margin="10,0,0,0"
+                                            FillColor="#FF970C5E"
+                                            Text="徽菜" />
+        </StackPanel>
+    </Grid>
+</UserControl>

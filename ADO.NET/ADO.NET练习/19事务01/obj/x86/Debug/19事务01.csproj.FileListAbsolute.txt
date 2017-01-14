@@ -1,0 +1,8 @@
+E:\C#\ADO.NET练习\19事务01\bin\Debug\19事务01.exe
+E:\C#\ADO.NET练习\19事务01\bin\Debug\19事务01.pdb
+E:\C#\ADO.NET练习\19事务01\obj\x86\Debug\_19事务01.Form1.resources
+E:\C#\ADO.NET练习\19事务01\obj\x86\Debug\_19事务01.Properties.Resources.resources
+E:\C#\ADO.NET练习\19事务01\obj\x86\Debug\19事务01.csproj.GenerateResource.Cache
+E:\C#\ADO.NET练习\19事务01\obj\x86\Debug\19事务01.exe
+E:\C#\ADO.NET练习\19事务01\obj\x86\Debug\19事务01.pdb
+E:\C#\ADO.NET练习\19事务01\obj\x86\Debug\19事务01.csprojResolveAssemblyReference.cache

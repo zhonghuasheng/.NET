@@ -1,0 +1,8 @@
+E:\C#\ADO.NET练习\如何将数据同步更新到数据库\bin\Debug\如何将数据同步更新到数据库.exe
+E:\C#\ADO.NET练习\如何将数据同步更新到数据库\bin\Debug\如何将数据同步更新到数据库.pdb
+E:\C#\ADO.NET练习\如何将数据同步更新到数据库\obj\x86\Debug\如何将数据同步更新到数据库.Form1.resources
+E:\C#\ADO.NET练习\如何将数据同步更新到数据库\obj\x86\Debug\如何将数据同步更新到数据库.Properties.Resources.resources
+E:\C#\ADO.NET练习\如何将数据同步更新到数据库\obj\x86\Debug\如何将数据同步更新到数据库.exe
+E:\C#\ADO.NET练习\如何将数据同步更新到数据库\obj\x86\Debug\如何将数据同步更新到数据库.pdb
+E:\C#\ADO.NET练习\如何将数据同步更新到数据库\obj\x86\Debug\如何将数据同步更新到数据库.csprojResolveAssemblyReference.cache
+E:\C#\ADO.NET练习\如何将数据同步更新到数据库\obj\x86\Debug\如何将数据同步更新到数据库.csproj.GenerateResource.Cache

@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\19事务-TransactionScope\bin\Debug\19事务-TransactionScope.exe
+E:\C#\ADO.NET练习\19事务-TransactionScope\bin\Debug\19事务-TransactionScope.pdb
+E:\C#\ADO.NET练习\19事务-TransactionScope\obj\x86\Debug\_19事务_TransactionScope.Form1.resources
+E:\C#\ADO.NET练习\19事务-TransactionScope\obj\x86\Debug\_19事务_TransactionScope.Properties.Resources.resources
+E:\C#\ADO.NET练习\19事务-TransactionScope\obj\x86\Debug\19事务-TransactionScope.csproj.GenerateResource.Cache
+E:\C#\ADO.NET练习\19事务-TransactionScope\obj\x86\Debug\19事务-TransactionScope.exe
+E:\C#\ADO.NET练习\19事务-TransactionScope\obj\x86\Debug\19事务-TransactionScope.pdb

@@ -1,0 +1,5 @@
+E:\C#\WPF\Project1\Project1\obj\Debug\Project1.csprojResolveAssemblyReference.cache
+E:\C#\WPF\Project1\Project1\bin\Debug\Project1.exe
+E:\C#\WPF\Project1\Project1\bin\Debug\Project1.pdb
+E:\C#\WPF\Project1\Project1\obj\Debug\Project1.exe
+E:\C#\WPF\Project1\Project1\obj\Debug\Project1.pdb

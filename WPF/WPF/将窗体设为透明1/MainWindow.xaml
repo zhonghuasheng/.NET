@@ -1,0 +1,26 @@
+﻿<Window x:Class="将窗体设为透明1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow"
+        Width="525"
+        Height="350"
+        AllowsTransparency="True"
+        Background="#00FFFFFF"
+        ResizeMode="NoResize"
+        Visibility="Visible"
+        WindowStyle="None">
+    <Grid x:Name="LayoutRoot"
+          Background="#00000000"
+          OpacityMask="{x:Null}">
+
+        <Ellipse Width="138"
+                 Height="138"
+                 Margin="0,0,140,60"
+                 HorizontalAlignment="Right"
+                 VerticalAlignment="Bottom"
+                 Fill="#FFB7ECDA"
+                 Stroke="#FF172A9C"
+                 StrokeThickness="3" />
+
+    </Grid>
+</Window>

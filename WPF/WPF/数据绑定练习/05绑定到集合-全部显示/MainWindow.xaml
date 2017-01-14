@@ -1,0 +1,25 @@
+﻿<Window x:Class="_05绑定到集合_全部显示.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*" ></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ListBox x:Name="listBoxStudents" Height="300" Margin="5" Grid.Row="0" >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=StudentId}" Width="30"></TextBlock>
+                        <TextBlock Text="{Binding Path=StudentName}" Width="60"></TextBlock>
+                        <TextBlock Text="{Binding Path=StudentAge}" Width="30"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBox  Height="36" Grid.Row="1">显示数据的变化，使用的是ObservableCollection泛型</TextBox>
+        <Button Name="btnTest" Click="BtnTest_OnClick" Height="36" Width="120" Grid.Row="2">测试变化</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\17直接在DataGridView控件中修改数据\bin\Debug\17直接在DataGridView控件中修改数据.exe
+E:\C#\ADO.NET练习\17直接在DataGridView控件中修改数据\bin\Debug\17直接在DataGridView控件中修改数据.pdb
+E:\C#\ADO.NET练习\17直接在DataGridView控件中修改数据\obj\x86\Debug\_17直接在DataGridView控件中修改数据.Form1.resources
+E:\C#\ADO.NET练习\17直接在DataGridView控件中修改数据\obj\x86\Debug\_17直接在DataGridView控件中修改数据.Properties.Resources.resources
+E:\C#\ADO.NET练习\17直接在DataGridView控件中修改数据\obj\x86\Debug\17直接在DataGridView控件中修改数据.exe
+E:\C#\ADO.NET练习\17直接在DataGridView控件中修改数据\obj\x86\Debug\17直接在DataGridView控件中修改数据.pdb
+E:\C#\ADO.NET练习\17直接在DataGridView控件中修改数据\obj\x86\Debug\17直接在DataGridView控件中修改数据.csproj.GenerateResource.Cache

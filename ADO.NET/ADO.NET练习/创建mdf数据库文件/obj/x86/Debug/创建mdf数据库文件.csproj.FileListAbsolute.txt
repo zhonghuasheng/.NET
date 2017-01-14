@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\创建mdf数据库文件\bin\Debug\Database2.mdf
+E:\C#\ADO.NET练习\创建mdf数据库文件\bin\Debug\Database2_log.ldf
+E:\C#\ADO.NET练习\创建mdf数据库文件\bin\Debug\创建mdf数据库文件.exe
+E:\C#\ADO.NET练习\创建mdf数据库文件\bin\Debug\创建mdf数据库文件.pdb
+E:\C#\ADO.NET练习\创建mdf数据库文件\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C#\ADO.NET练习\创建mdf数据库文件\obj\x86\Debug\创建mdf数据库文件.exe
+E:\C#\ADO.NET练习\创建mdf数据库文件\obj\x86\Debug\创建mdf数据库文件.pdb

@@ -1,0 +1,25 @@
+﻿<Window x:Class="ItemsControl的PanelTemplate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:ItemsControl的PanelTemplate"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Margin="6">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ListBox Grid.Row="0">
+            <!--ItemsPanel-->
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"></StackPanel>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <TextBlock Text="Allan"/>
+            <TextBlock Text="Kevin"/>
+            <TextBlock Text="Drew"/>
+            <TextBlock Text="Timothy"/>
+        </ListBox>
+        <local:UserControl1 x:Name="test" Grid.Row="1"></local:UserControl1>
+    </Grid>
+</Window>

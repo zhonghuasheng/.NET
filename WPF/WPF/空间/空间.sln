@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollViewer", "ScrollViewer\ScrollViewer.csproj", "{04AAE882-0AC3-4EC8-B99E-EB5165855C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expander", "Expander\Expander.csproj", "{7CA36697-9A8F-46E4-AF25-F3AB587DD252}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04AAE882-0AC3-4EC8-B99E-EB5165855C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AAE882-0AC3-4EC8-B99E-EB5165855C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AAE882-0AC3-4EC8-B99E-EB5165855C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AAE882-0AC3-4EC8-B99E-EB5165855C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA36697-9A8F-46E4-AF25-F3AB587DD252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA36697-9A8F-46E4-AF25-F3AB587DD252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA36697-9A8F-46E4-AF25-F3AB587DD252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA36697-9A8F-46E4-AF25-F3AB587DD252}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+E:\C#\WPF\数据绑定练习\10ObjectDataProvider在XAML中的使用\bin\Debug\10ObjectDataProvider在XAML中的使用.exe
+E:\C#\WPF\数据绑定练习\10ObjectDataProvider在XAML中的使用\bin\Debug\10ObjectDataProvider在XAML中的使用.pdb
+E:\C#\WPF\数据绑定练习\10ObjectDataProvider在XAML中的使用\obj\Debug\MainWindow.baml
+E:\C#\WPF\数据绑定练习\10ObjectDataProvider在XAML中的使用\obj\Debug\MainWindow.g.cs
+E:\C#\WPF\数据绑定练习\10ObjectDataProvider在XAML中的使用\obj\Debug\App.g.cs
+E:\C#\WPF\数据绑定练习\10ObjectDataProvider在XAML中的使用\obj\Debug\10ObjectDataProvider在XAML中的使用_MarkupCompile.cache
+E:\C#\WPF\数据绑定练习\10ObjectDataProvider在XAML中的使用\obj\Debug\10ObjectDataProvider在XAML中的使用.g.resources
+E:\C#\WPF\数据绑定练习\10ObjectDataProvider在XAML中的使用\obj\Debug\_10ObjectDataProvider在XAML中的使用.Properties.Resources.resources
+E:\C#\WPF\数据绑定练习\10ObjectDataProvider在XAML中的使用\obj\Debug\10ObjectDataProvider在XAML中的使用.csproj.GenerateResource.Cache
+E:\C#\WPF\数据绑定练习\10ObjectDataProvider在XAML中的使用\obj\Debug\10ObjectDataProvider在XAML中的使用.exe
+E:\C#\WPF\数据绑定练习\10ObjectDataProvider在XAML中的使用\obj\Debug\10ObjectDataProvider在XAML中的使用.pdb

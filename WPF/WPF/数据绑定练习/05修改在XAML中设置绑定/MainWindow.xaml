@@ -1,0 +1,12 @@
+﻿<Window x:Class="_05将数据绑定到List集合_在XAML中绑定.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Margin="5" Background="DeepSkyBlue">
+        <TextBlock Margin="5" Text="StudentNum" FontSize="16" FontWeight="Bold"></TextBlock>
+        <TextBox Name="TextBoxTest" Height="36" Margin="5" 
+                 Text="{Binding ElementName=ListBoxTest,Path=SelectedItem.StudentNum}"></TextBox>
+        <TextBlock Margin="5" Text="StudentList" FontSize="16" FontWeight="Bold"></TextBlock>
+        <ListBox Name="ListBoxTest" Height="200" ItemsSource="{Binding StudentsList}" DisplayMemberPath="StudentName"></ListBox>
+    </StackPanel>
+</Window>

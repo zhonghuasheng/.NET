@@ -1,0 +1,12 @@
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\bin\Debug\03GridSpriltter对象.exe
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\bin\Debug\03GridSpriltter对象.pdb
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\obj\Debug\03GridSpriltter对象.csprojResolveAssemblyReference.cache
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\obj\Debug\MainWindow.baml
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\obj\Debug\MainWindow.g.cs
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\obj\Debug\App.g.cs
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\obj\Debug\03GridSpriltter对象_MarkupCompile.cache
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\obj\Debug\03GridSpriltter对象.g.resources
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\obj\Debug\_03GridSpriltter对象.Properties.Resources.resources
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\obj\Debug\03GridSpriltter对象.csproj.GenerateResource.Cache
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\obj\Debug\03GridSpriltter对象.exe
+E:\C#\WPF\UseCodeToCrateWPFApp\03GridSpriltter对象\obj\Debug\03GridSpriltter对象.pdb

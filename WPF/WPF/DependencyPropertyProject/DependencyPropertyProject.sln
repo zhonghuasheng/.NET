@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyProperty1", "DependencyProperty1\DependencyProperty1.csproj", "{2C650737-36A3-4D6F-8F5A-C3E094E33F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyProject2", "DependencyProject2\DependencyProject2.csproj", "{352F10C5-2752-4A1F-9E75-BEA11B7386CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyProperty3", "DependencyProperty3\DependencyProperty3.csproj", "{5173A033-C024-460B-AFFC-4560EF883111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "依赖属性的默认值", "依赖属性的默认值\依赖属性的默认值.csproj", "{19768922-2B98-437A-A7F5-33185441DEC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C650737-36A3-4D6F-8F5A-C3E094E33F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C650737-36A3-4D6F-8F5A-C3E094E33F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C650737-36A3-4D6F-8F5A-C3E094E33F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C650737-36A3-4D6F-8F5A-C3E094E33F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352F10C5-2752-4A1F-9E75-BEA11B7386CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352F10C5-2752-4A1F-9E75-BEA11B7386CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352F10C5-2752-4A1F-9E75-BEA11B7386CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352F10C5-2752-4A1F-9E75-BEA11B7386CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5173A033-C024-460B-AFFC-4560EF883111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5173A033-C024-460B-AFFC-4560EF883111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5173A033-C024-460B-AFFC-4560EF883111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5173A033-C024-460B-AFFC-4560EF883111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19768922-2B98-437A-A7F5-33185441DEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19768922-2B98-437A-A7F5-33185441DEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19768922-2B98-437A-A7F5-33185441DEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19768922-2B98-437A-A7F5-33185441DEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

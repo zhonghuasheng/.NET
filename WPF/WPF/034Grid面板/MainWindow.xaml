@@ -1,0 +1,23 @@
+﻿<Window x:Class="_034Grid面板.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition>
+            </RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom"  Content="1行1列"></Button>
+        <Button Grid.Row="1" Grid.Column="0" Content="2行1例"></Button>
+        <Button Grid.Row="2" Grid.Column="0">3行1列</Button>
+        <Button Grid.Row="0" Grid.Column="1">1行2列</Button>
+        <Label Grid.Row="1" Grid.Column="1">2行2列</Label>
+        <TextBox Grid.Row="2" Grid.Column="2">3行2列</TextBox>
+    </Grid>
+</Window>

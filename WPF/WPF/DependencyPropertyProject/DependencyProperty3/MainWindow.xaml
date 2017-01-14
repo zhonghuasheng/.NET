@@ -1,0 +1,12 @@
+﻿<Window x:Class="DependencyProperty3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:DependencyProperty3"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox Name="txtBox1" Text="你是谁" ></TextBox>
+        <TextBox Name="txtBox2"></TextBox>
+        <Button Name="btnTest" Width="120" Height="36" Click="BtnTest_OnClick">测试</Button>
+    </StackPanel>
+</Window>
+           

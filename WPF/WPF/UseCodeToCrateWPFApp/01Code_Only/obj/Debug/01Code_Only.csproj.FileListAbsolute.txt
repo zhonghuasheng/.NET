@@ -1,0 +1,7 @@
+E:\C#\WPF\UseCodeToCrateWPFApp\01Code_Only\bin\Debug\01Code_Only.exe
+E:\C#\WPF\UseCodeToCrateWPFApp\01Code_Only\bin\Debug\01Code_Only.pdb
+E:\C#\WPF\UseCodeToCrateWPFApp\01Code_Only\obj\Debug\01Code_Only.csprojResolveAssemblyReference.cache
+E:\C#\WPF\UseCodeToCrateWPFApp\01Code_Only\obj\Debug\_01Code_Only.Properties.Resources.resources
+E:\C#\WPF\UseCodeToCrateWPFApp\01Code_Only\obj\Debug\01Code_Only.csproj.GenerateResource.Cache
+E:\C#\WPF\UseCodeToCrateWPFApp\01Code_Only\obj\Debug\01Code_Only.exe
+E:\C#\WPF\UseCodeToCrateWPFApp\01Code_Only\obj\Debug\01Code_Only.pdb

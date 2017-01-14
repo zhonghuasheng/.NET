@@ -1,0 +1,4 @@
+E:\C#\EFTest\ServiceContract\bin\Debug\ServiceContract.dll
+E:\C#\EFTest\ServiceContract\bin\Debug\ServiceContract.pdb
+E:\C#\EFTest\ServiceContract\obj\Debug\ServiceContract.dll
+E:\C#\EFTest\ServiceContract\obj\Debug\ServiceContract.pdb

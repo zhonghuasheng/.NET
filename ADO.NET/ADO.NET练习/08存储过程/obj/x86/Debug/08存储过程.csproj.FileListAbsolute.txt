@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\08存储过程\bin\Debug\08存储过程.exe
+E:\C#\ADO.NET练习\08存储过程\bin\Debug\08存储过程.pdb
+E:\C#\ADO.NET练习\08存储过程\obj\x86\Debug\_08存储过程.Form1.resources
+E:\C#\ADO.NET练习\08存储过程\obj\x86\Debug\_08存储过程.Properties.Resources.resources
+E:\C#\ADO.NET练习\08存储过程\obj\x86\Debug\08存储过程.exe
+E:\C#\ADO.NET练习\08存储过程\obj\x86\Debug\08存储过程.pdb
+E:\C#\ADO.NET练习\08存储过程\obj\x86\Debug\08存储过程.csproj.GenerateResource.Cache

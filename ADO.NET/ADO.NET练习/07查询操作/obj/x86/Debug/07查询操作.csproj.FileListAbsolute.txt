@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\07查询操作\bin\Debug\07查询操作.exe
+E:\C#\ADO.NET练习\07查询操作\bin\Debug\07查询操作.pdb
+E:\C#\ADO.NET练习\07查询操作\obj\x86\Debug\_07查询操作.Form1.resources
+E:\C#\ADO.NET练习\07查询操作\obj\x86\Debug\_07查询操作.Properties.Resources.resources
+E:\C#\ADO.NET练习\07查询操作\obj\x86\Debug\07查询操作.exe
+E:\C#\ADO.NET练习\07查询操作\obj\x86\Debug\07查询操作.pdb
+E:\C#\ADO.NET练习\07查询操作\obj\x86\Debug\07查询操作.csproj.GenerateResource.Cache

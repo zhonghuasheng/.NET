@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPF中的内置命令.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="240" Width="360">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="4"/>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="4"/>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="4"/>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--命令和命令参数-->
+        <TextBlock Text="Name:" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Column="0"/>
+        <TextBox x:Name="nameTextBox" Margin="60,0,0,0" Grid.Row="0" BorderBrush="Red"/>
+        <Button Content="New Teacher" Command="New" CommandParameter="Teacher" Grid.Row="2" BorderBrush="Purple"/>
+        <Button Content="New Student" Command="New" CommandParameter="Student" Grid.Row="4"/>
+        <ListBox x:Name="listBoxNewItems" Grid.Row="6"></ListBox>
+    </Grid>
+    <!--为窗体添加命令-->
+    <Window.CommandBindings>
+        <CommandBinding Command="New" CanExecute="New_CanExecute" Executed="New_Executed"></CommandBinding>
+    </Window.CommandBindings>
+</Window>

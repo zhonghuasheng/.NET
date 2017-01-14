@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\16ListView在数据库中的运用01\obj\x86\Debug\_16ListView在数据库中的运用01.Form1.resources
+E:\C#\ADO.NET练习\16ListView在数据库中的运用01\obj\x86\Debug\_16ListView在数据库中的运用01.Properties.Resources.resources
+E:\C#\ADO.NET练习\16ListView在数据库中的运用01\bin\Debug\16ListView在数据库中的运用01.exe
+E:\C#\ADO.NET练习\16ListView在数据库中的运用01\bin\Debug\16ListView在数据库中的运用01.pdb
+E:\C#\ADO.NET练习\16ListView在数据库中的运用01\obj\x86\Debug\16ListView在数据库中的运用01.exe
+E:\C#\ADO.NET练习\16ListView在数据库中的运用01\obj\x86\Debug\16ListView在数据库中的运用01.pdb
+E:\C#\ADO.NET练习\16ListView在数据库中的运用01\obj\x86\Debug\16ListView在数据库中的运用01.csproj.GenerateResource.Cache

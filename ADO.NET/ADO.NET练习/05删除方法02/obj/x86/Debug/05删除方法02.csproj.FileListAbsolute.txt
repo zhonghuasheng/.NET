@@ -1,0 +1,7 @@
+E:\C#\ADO.NET练习\05删除方法02\obj\x86\Debug\_05删除方法02.Form1.resources
+E:\C#\ADO.NET练习\05删除方法02\obj\x86\Debug\_05删除方法02.Properties.Resources.resources
+E:\C#\ADO.NET练习\05删除方法02\bin\Debug\05删除方法02.exe
+E:\C#\ADO.NET练习\05删除方法02\bin\Debug\05删除方法02.pdb
+E:\C#\ADO.NET练习\05删除方法02\obj\x86\Debug\05删除方法02.exe
+E:\C#\ADO.NET练习\05删除方法02\obj\x86\Debug\05删除方法02.pdb
+E:\C#\ADO.NET练习\05删除方法02\obj\x86\Debug\05删除方法02.csproj.GenerateResource.Cache
