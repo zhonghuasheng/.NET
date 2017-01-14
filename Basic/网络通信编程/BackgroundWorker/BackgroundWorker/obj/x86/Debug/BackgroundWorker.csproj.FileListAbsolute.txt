@@ -1,0 +1,7 @@
+E:\C#\网络通信编程\BackgroundWorker\BackgroundWorker\bin\Debug\BackgroundWorker.exe
+E:\C#\网络通信编程\BackgroundWorker\BackgroundWorker\bin\Debug\BackgroundWorker.pdb
+E:\C#\网络通信编程\BackgroundWorker\BackgroundWorker\obj\x86\Debug\BackgroundWorker.Form1.resources
+E:\C#\网络通信编程\BackgroundWorker\BackgroundWorker\obj\x86\Debug\BackgroundWorker.Properties.Resources.resources
+E:\C#\网络通信编程\BackgroundWorker\BackgroundWorker\obj\x86\Debug\BackgroundWorker.csproj.GenerateResource.Cache
+E:\C#\网络通信编程\BackgroundWorker\BackgroundWorker\obj\x86\Debug\BackgroundWorker.exe
+E:\C#\网络通信编程\BackgroundWorker\BackgroundWorker\obj\x86\Debug\BackgroundWorker.pdb

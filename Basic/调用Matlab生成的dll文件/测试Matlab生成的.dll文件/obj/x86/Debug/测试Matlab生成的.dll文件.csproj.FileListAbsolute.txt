@@ -1,0 +1,11 @@
+E:\C#\调用Matlab生成的dll文件\测试Matlab生成的.dll文件\bin\Debug\测试Matlab生成的.dll文件.exe
+E:\C#\调用Matlab生成的dll文件\测试Matlab生成的.dll文件\bin\Debug\测试Matlab生成的.dll文件.pdb
+E:\C#\调用Matlab生成的dll文件\测试Matlab生成的.dll文件\bin\Debug\One.dll
+E:\C#\调用Matlab生成的dll文件\测试Matlab生成的.dll文件\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C#\调用Matlab生成的dll文件\测试Matlab生成的.dll文件\obj\x86\Debug\测试Matlab生成的.dll文件.Form1.resources
+E:\C#\调用Matlab生成的dll文件\测试Matlab生成的.dll文件\obj\x86\Debug\测试Matlab生成的.dll文件.Properties.Resources.resources
+E:\C#\调用Matlab生成的dll文件\测试Matlab生成的.dll文件\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\C#\调用Matlab生成的dll文件\测试Matlab生成的.dll文件\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\C#\调用Matlab生成的dll文件\测试Matlab生成的.dll文件\obj\x86\Debug\测试Matlab生成的.dll文件.exe
+E:\C#\调用Matlab生成的dll文件\测试Matlab生成的.dll文件\obj\x86\Debug\测试Matlab生成的.dll文件.pdb
+E:\C#\调用Matlab生成的dll文件\测试Matlab生成的.dll文件\bin\Debug\MWArray.dll

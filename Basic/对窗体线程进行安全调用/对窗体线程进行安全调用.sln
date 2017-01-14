@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "对窗体线程进行安全调用", "对窗体线程进行安全调用\对窗体线程进行安全调用.csproj", "{CD12D04E-99F4-4F38-87B5-1B145AE8233E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "对窗体控件进行线程安全调用", "对窗体控件进行线程安全调用\对窗体控件进行线程安全调用.csproj", "{D6AC3215-7197-43BF-B93A-105B9064AA8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD12D04E-99F4-4F38-87B5-1B145AE8233E}.Debug|x86.ActiveCfg = Debug|x86
+		{CD12D04E-99F4-4F38-87B5-1B145AE8233E}.Debug|x86.Build.0 = Debug|x86
+		{CD12D04E-99F4-4F38-87B5-1B145AE8233E}.Release|x86.ActiveCfg = Release|x86
+		{CD12D04E-99F4-4F38-87B5-1B145AE8233E}.Release|x86.Build.0 = Release|x86
+		{D6AC3215-7197-43BF-B93A-105B9064AA8D}.Debug|x86.ActiveCfg = Debug|x86
+		{D6AC3215-7197-43BF-B93A-105B9064AA8D}.Debug|x86.Build.0 = Debug|x86
+		{D6AC3215-7197-43BF-B93A-105B9064AA8D}.Release|x86.ActiveCfg = Release|x86
+		{D6AC3215-7197-43BF-B93A-105B9064AA8D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

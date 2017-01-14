@@ -1,0 +1,7 @@
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信接收端\bin\Debug\01基本网络通信接收端.exe
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信接收端\bin\Debug\01基本网络通信接收端.pdb
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信接收端\obj\x86\Debug\_01基本网络通信接收端.formUdpReceive.resources
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信接收端\obj\x86\Debug\_01基本网络通信接收端.Properties.Resources.resources
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信接收端\obj\x86\Debug\01基本网络通信接收端.csproj.GenerateResource.Cache
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信接收端\obj\x86\Debug\01基本网络通信接收端.exe
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信接收端\obj\x86\Debug\01基本网络通信接收端.pdb

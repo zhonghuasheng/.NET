@@ -1,0 +1,9 @@
+E:\C#\调用Matlab生成的dll文件\com组件\bin\Debug\com组件.exe
+E:\C#\调用Matlab生成的dll文件\com组件\bin\Debug\com组件.pdb
+E:\C#\调用Matlab生成的dll文件\com组件\bin\Debug\MWArray.dll
+E:\C#\调用Matlab生成的dll文件\com组件\bin\Debug\Interop.MLApp.dll
+E:\C#\调用Matlab生成的dll文件\com组件\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C#\调用Matlab生成的dll文件\com组件\obj\x86\Debug\Interop.MLApp.dll
+E:\C#\调用Matlab生成的dll文件\com组件\obj\x86\Debug\com组件.csproj.ResolveComReference.cache
+E:\C#\调用Matlab生成的dll文件\com组件\obj\x86\Debug\com组件.exe
+E:\C#\调用Matlab生成的dll文件\com组件\obj\x86\Debug\com组件.pdb

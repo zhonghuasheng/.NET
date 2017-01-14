@@ -1,0 +1,12 @@
+E:\C#\GDI+\GDI+绘制柱状图-投票\bin\Debug\GDI+绘制柱状图-投票.exe
+E:\C#\GDI+\GDI+绘制柱状图-投票\bin\Debug\GDI+绘制柱状图-投票.pdb
+E:\C#\GDI+\GDI+绘制柱状图-投票\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C#\GDI+\GDI+绘制柱状图-投票\obj\x86\Debug\GDI_绘制柱状图_投票.Form1.resources
+E:\C#\GDI+\GDI+绘制柱状图-投票\obj\x86\Debug\GDI_绘制柱状图_投票.Properties.Resources.resources
+E:\C#\GDI+\GDI+绘制柱状图-投票\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\C#\GDI+\GDI+绘制柱状图-投票\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\C#\GDI+\GDI+绘制柱状图-投票\obj\x86\Debug\GDI+绘制柱状图-投票.exe
+E:\C#\GDI+\GDI+绘制柱状图-投票\obj\x86\Debug\GDI+绘制柱状图-投票.pdb
+E:\C#\GDI+\GDI+绘制柱状图-投票\bin\Debug\GDI+绘制柱状图-投票.exe.config
+E:\C#\GDI+\GDI+绘制柱状图-投票\bin\Debug\voilet.mdf
+E:\C#\GDI+\GDI+绘制柱状图-投票\bin\Debug\voilet_log.ldf

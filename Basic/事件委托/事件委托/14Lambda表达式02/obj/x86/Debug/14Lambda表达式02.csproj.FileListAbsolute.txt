@@ -1,0 +1,5 @@
+E:\C#\事件委托\事件委托\14Lambda表达式02\bin\Debug\14Lambda表达式02.exe
+E:\C#\事件委托\事件委托\14Lambda表达式02\bin\Debug\14Lambda表达式02.pdb
+E:\C#\事件委托\事件委托\14Lambda表达式02\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C#\事件委托\事件委托\14Lambda表达式02\obj\x86\Debug\14Lambda表达式02.exe
+E:\C#\事件委托\事件委托\14Lambda表达式02\obj\x86\Debug\14Lambda表达式02.pdb

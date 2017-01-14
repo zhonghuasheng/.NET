@@ -1,0 +1,12 @@
+E:\C#\GDI+\投票测试\bin\Debug\投票测试.exe
+E:\C#\GDI+\投票测试\bin\Debug\投票测试.pdb
+E:\C#\GDI+\投票测试\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C#\GDI+\投票测试\obj\x86\Debug\投票测试.Form1.resources
+E:\C#\GDI+\投票测试\obj\x86\Debug\投票测试.Properties.Resources.resources
+E:\C#\GDI+\投票测试\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\C#\GDI+\投票测试\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\C#\GDI+\投票测试\obj\x86\Debug\投票测试.exe
+E:\C#\GDI+\投票测试\obj\x86\Debug\投票测试.pdb
+E:\C#\GDI+\投票测试\bin\Debug\Database1.mdf
+E:\C#\GDI+\投票测试\bin\Debug\Database1_log.ldf
+E:\C#\GDI+\投票测试\bin\Debug\投票测试.exe.config

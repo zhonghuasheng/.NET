@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01基本网络通信", "01基本网络通信\01基本网络通信.csproj", "{BFD02813-3F06-4FBF-9DD1-6FBED6B21622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01基本网络通信接收端", "01基本网络通信接收端\01基本网络通信接收端.csproj", "{70201A41-07C7-41A3-957B-67A971D3EBDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02DNS", "02DNS\02DNS.csproj", "{85DEB6E1-48C2-4D57-8FAE-9DD88F0C2267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02DNS异步委托回调", "02DNS异步委托回调\02DNS异步委托回调.csproj", "{D3900434-CE7F-430B-B32A-58B8C2842178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "测试", "测试\测试.csproj", "{DA3A9BDA-862D-4B78-B4B1-D64E64B05876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormClient", "FormClient\FormClient.csproj", "{87A667FF-3A10-4CD9-9BF1-4C95B4E70A2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFD02813-3F06-4FBF-9DD1-6FBED6B21622}.Debug|x86.ActiveCfg = Debug|x86
+		{BFD02813-3F06-4FBF-9DD1-6FBED6B21622}.Debug|x86.Build.0 = Debug|x86
+		{BFD02813-3F06-4FBF-9DD1-6FBED6B21622}.Release|x86.ActiveCfg = Release|x86
+		{BFD02813-3F06-4FBF-9DD1-6FBED6B21622}.Release|x86.Build.0 = Release|x86
+		{70201A41-07C7-41A3-957B-67A971D3EBDF}.Debug|x86.ActiveCfg = Debug|x86
+		{70201A41-07C7-41A3-957B-67A971D3EBDF}.Debug|x86.Build.0 = Debug|x86
+		{70201A41-07C7-41A3-957B-67A971D3EBDF}.Release|x86.ActiveCfg = Release|x86
+		{70201A41-07C7-41A3-957B-67A971D3EBDF}.Release|x86.Build.0 = Release|x86
+		{85DEB6E1-48C2-4D57-8FAE-9DD88F0C2267}.Debug|x86.ActiveCfg = Debug|x86
+		{85DEB6E1-48C2-4D57-8FAE-9DD88F0C2267}.Debug|x86.Build.0 = Debug|x86
+		{85DEB6E1-48C2-4D57-8FAE-9DD88F0C2267}.Release|x86.ActiveCfg = Release|x86
+		{85DEB6E1-48C2-4D57-8FAE-9DD88F0C2267}.Release|x86.Build.0 = Release|x86
+		{D3900434-CE7F-430B-B32A-58B8C2842178}.Debug|x86.ActiveCfg = Debug|x86
+		{D3900434-CE7F-430B-B32A-58B8C2842178}.Debug|x86.Build.0 = Debug|x86
+		{D3900434-CE7F-430B-B32A-58B8C2842178}.Release|x86.ActiveCfg = Release|x86
+		{D3900434-CE7F-430B-B32A-58B8C2842178}.Release|x86.Build.0 = Release|x86
+		{DA3A9BDA-862D-4B78-B4B1-D64E64B05876}.Debug|x86.ActiveCfg = Debug|x86
+		{DA3A9BDA-862D-4B78-B4B1-D64E64B05876}.Debug|x86.Build.0 = Debug|x86
+		{DA3A9BDA-862D-4B78-B4B1-D64E64B05876}.Release|x86.ActiveCfg = Release|x86
+		{DA3A9BDA-862D-4B78-B4B1-D64E64B05876}.Release|x86.Build.0 = Release|x86
+		{87A667FF-3A10-4CD9-9BF1-4C95B4E70A2E}.Debug|x86.ActiveCfg = Debug|x86
+		{87A667FF-3A10-4CD9-9BF1-4C95B4E70A2E}.Debug|x86.Build.0 = Debug|x86
+		{87A667FF-3A10-4CD9-9BF1-4C95B4E70A2E}.Release|x86.ActiveCfg = Release|x86
+		{87A667FF-3A10-4CD9-9BF1-4C95B4E70A2E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信\bin\Debug\01基本网络通信.exe
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信\bin\Debug\01基本网络通信.pdb
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信\obj\x86\Debug\_01基本网络通信.formUdpSend.resources
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信\obj\x86\Debug\_01基本网络通信.Properties.Resources.resources
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信\obj\x86\Debug\01基本网络通信.csproj.GenerateResource.Cache
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信\obj\x86\Debug\01基本网络通信.exe
+E:\C#\网络通信编程\01基本网络通信\01基本网络通信\obj\x86\Debug\01基本网络通信.pdb

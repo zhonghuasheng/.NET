@@ -1,0 +1,9 @@
+E:\C#\GDI+\绘制一个矩形\bin\Debug\绘制一个矩形.exe
+E:\C#\GDI+\绘制一个矩形\bin\Debug\绘制一个矩形.pdb
+E:\C#\GDI+\绘制一个矩形\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\C#\GDI+\绘制一个矩形\obj\x86\Debug\绘制一个矩形.Form1.resources
+E:\C#\GDI+\绘制一个矩形\obj\x86\Debug\绘制一个矩形.Properties.Resources.resources
+E:\C#\GDI+\绘制一个矩形\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\C#\GDI+\绘制一个矩形\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\C#\GDI+\绘制一个矩形\obj\x86\Debug\绘制一个矩形.exe
+E:\C#\GDI+\绘制一个矩形\obj\x86\Debug\绘制一个矩形.pdb

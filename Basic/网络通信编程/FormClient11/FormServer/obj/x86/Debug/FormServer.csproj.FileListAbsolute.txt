@@ -1,0 +1,7 @@
+C:\Users\陈勇\Desktop\FormClient11\FormServer\bin\Debug\FormServer.exe
+C:\Users\陈勇\Desktop\FormClient11\FormServer\bin\Debug\FormServer.pdb
+C:\Users\陈勇\Desktop\FormClient11\FormServer\obj\x86\Debug\FormServer.Form1.resources
+C:\Users\陈勇\Desktop\FormClient11\FormServer\obj\x86\Debug\FormServer.Properties.Resources.resources
+C:\Users\陈勇\Desktop\FormClient11\FormServer\obj\x86\Debug\FormServer.csproj.GenerateResource.Cache
+C:\Users\陈勇\Desktop\FormClient11\FormServer\obj\x86\Debug\FormServer.exe
+C:\Users\陈勇\Desktop\FormClient11\FormServer\obj\x86\Debug\FormServer.pdb
