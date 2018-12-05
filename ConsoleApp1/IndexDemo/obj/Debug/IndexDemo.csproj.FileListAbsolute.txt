@@ -1,0 +1,6 @@
+C:\Users\Ant\source\repos\ConsoleApp1\IndexDemo\bin\Debug\IndexDemo.exe.config
+C:\Users\Ant\source\repos\ConsoleApp1\IndexDemo\bin\Debug\IndexDemo.exe
+C:\Users\Ant\source\repos\ConsoleApp1\IndexDemo\bin\Debug\IndexDemo.pdb
+C:\Users\Ant\source\repos\ConsoleApp1\IndexDemo\obj\Debug\IndexDemo.csproj.CoreCompileInputs.cache
+C:\Users\Ant\source\repos\ConsoleApp1\IndexDemo\obj\Debug\IndexDemo.exe
+C:\Users\Ant\source\repos\ConsoleApp1\IndexDemo\obj\Debug\IndexDemo.pdb

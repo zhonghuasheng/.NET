@@ -1,0 +1,7 @@
+C:\Users\Ant\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\BubbleSort.exe.config
+C:\Users\Ant\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\BubbleSort.exe
+C:\Users\Ant\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\BubbleSort.pdb
+C:\Users\Ant\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\BubbleSort.csprojAssemblyReference.cache
+C:\Users\Ant\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
+C:\Users\Ant\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\BubbleSort.exe
+C:\Users\Ant\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\BubbleSort.pdb

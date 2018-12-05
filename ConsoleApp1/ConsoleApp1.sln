@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "ConsoleApp1\BubbleSort.csproj", "{A65453F8-E312-4BEC-A75B-0F97BEFBECA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexDemo", "IndexDemo\IndexDemo.csproj", "{65D8E26C-978A-4CAF-8F2E-33E69455E5DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A65453F8-E312-4BEC-A75B-0F97BEFBECA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65453F8-E312-4BEC-A75B-0F97BEFBECA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65453F8-E312-4BEC-A75B-0F97BEFBECA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65453F8-E312-4BEC-A75B-0F97BEFBECA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D8E26C-978A-4CAF-8F2E-33E69455E5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D8E26C-978A-4CAF-8F2E-33E69455E5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D8E26C-978A-4CAF-8F2E-33E69455E5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D8E26C-978A-4CAF-8F2E-33E69455E5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {523E9287-6D7F-4465-A79C-F01E986CFB3B}
+	EndGlobalSection
+EndGlobal
