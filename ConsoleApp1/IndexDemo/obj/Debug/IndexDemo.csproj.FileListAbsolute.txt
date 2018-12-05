@@ -4,3 +4,10 @@ C:\Users\Ant\source\repos\ConsoleApp1\IndexDemo\bin\Debug\IndexDemo.pdb
 C:\Users\Ant\source\repos\ConsoleApp1\IndexDemo\obj\Debug\IndexDemo.csproj.CoreCompileInputs.cache
 C:\Users\Ant\source\repos\ConsoleApp1\IndexDemo\obj\Debug\IndexDemo.exe
 C:\Users\Ant\source\repos\ConsoleApp1\IndexDemo\obj\Debug\IndexDemo.pdb
+C:\Users\Ant\Desktop\.NET\ConsoleApp1\IndexDemo\bin\Debug\IndexDemo.exe.config
+C:\Users\Ant\Desktop\.NET\ConsoleApp1\IndexDemo\bin\Debug\IndexDemo.exe
+C:\Users\Ant\Desktop\.NET\ConsoleApp1\IndexDemo\bin\Debug\IndexDemo.pdb
+C:\Users\Ant\Desktop\.NET\ConsoleApp1\IndexDemo\obj\Debug\IndexDemo.csprojAssemblyReference.cache
+C:\Users\Ant\Desktop\.NET\ConsoleApp1\IndexDemo\obj\Debug\IndexDemo.csproj.CoreCompileInputs.cache
+C:\Users\Ant\Desktop\.NET\ConsoleApp1\IndexDemo\obj\Debug\IndexDemo.exe
+C:\Users\Ant\Desktop\.NET\ConsoleApp1\IndexDemo\obj\Debug\IndexDemo.pdb
