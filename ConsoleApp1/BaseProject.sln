@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutputDemo", "OutputDemo\OutputDemo.csproj", "{64FC55FC-ED7C-4AF9-88D0-94089CF48097}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJsPractice", "AngularJsPractice\AngularJsPractice.csproj", "{E468F10A-5E44-4B0E-937D-AF2F10EB87A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{64FC55FC-ED7C-4AF9-88D0-94089CF48097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64FC55FC-ED7C-4AF9-88D0-94089CF48097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64FC55FC-ED7C-4AF9-88D0-94089CF48097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E468F10A-5E44-4B0E-937D-AF2F10EB87A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E468F10A-5E44-4B0E-937D-AF2F10EB87A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E468F10A-5E44-4B0E-937D-AF2F10EB87A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E468F10A-5E44-4B0E-937D-AF2F10EB87A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
