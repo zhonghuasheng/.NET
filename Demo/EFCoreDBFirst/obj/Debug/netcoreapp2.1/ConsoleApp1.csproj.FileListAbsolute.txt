@@ -1,0 +1,16 @@
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CopyComplete
+C:\Users\cassie.zhang\source\repos\WebApplication2\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csprojAssemblyReference.cache
