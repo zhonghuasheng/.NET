@@ -12265,11 +12265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS2017WorkSpace\\Demo\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\VS2017WorkSpace\\.NET\\Demo\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\VS2017WorkSpace\\Demo\\WebAPI\\WebAPI.csproj",
+      "projectPath": "D:\\VS2017WorkSpace\\.NET\\Demo\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
-      "outputPath": "D:\\VS2017WorkSpace\\Demo\\WebAPI\\obj\\",
+      "outputPath": "D:\\VS2017WorkSpace\\.NET\\Demo\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

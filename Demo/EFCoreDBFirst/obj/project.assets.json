@@ -4317,11 +4317,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS2017WorkSpace\\Demo\\EFCoreDBFirst\\EFCoreDBFirst.csproj",
+      "projectUniqueName": "D:\\VS2017WorkSpace\\.NET\\Demo\\EFCoreDBFirst\\EFCoreDBFirst.csproj",
       "projectName": "EFCoreDBFirst",
-      "projectPath": "D:\\VS2017WorkSpace\\Demo\\EFCoreDBFirst\\EFCoreDBFirst.csproj",
+      "projectPath": "D:\\VS2017WorkSpace\\.NET\\Demo\\EFCoreDBFirst\\EFCoreDBFirst.csproj",
       "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
-      "outputPath": "D:\\VS2017WorkSpace\\Demo\\EFCoreDBFirst\\obj\\",
+      "outputPath": "D:\\VS2017WorkSpace\\.NET\\Demo\\EFCoreDBFirst\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
