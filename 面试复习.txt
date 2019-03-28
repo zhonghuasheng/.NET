@@ -1,0 +1,153 @@
+Angular
+1.组件式开发 
+2.核心内容：
+组件（components）：Angular的核心概念，其他都是为组件提供服务的，是angular的基础单元；特性（生命周期钩子），构造函数，onchanges，oninit，onchanges钩子，ondestory清理工作；@component模块是装饰器作用是赋予一个类（元数据）更丰富的信息，花括号里面的是元数据，下面的export）更丰富的信息，花括号里面的是元数据，下面的export class是组件类；
+元数据（metadata）：
+模板（templates）：
+服务（services）：普通的函数，组件依赖注入服务，providers来注入服务；在父组件里面注入的服务，子组件也可以使用，是单例的实例；分层注入，在子组件里面重新注入；
+指令（@driecive装饰器修饰）：组件继承指令并可以自定义指令，属性指令（[style.color]），结构指令（*ngIf）
+依赖注入（depen dency injection）：
+模块（module）：文件模块，@angular/core，@angular/common，@angular/forms，@angular/http，需要先import进来才能使用；应用模块，有关联的的功能进行归类组成模块，组件可以使用同一模块的指令，但是不能跨模块；@NgModule声明模块，declaratons，声明组件和指令，providers，注入模块的服务，imports，导入其他模块，bootstrap，设置根组件，exports，导出组件或模块；至少有一个模块是根模块，特性模块可以懒加载，共享模块，核心模块（比如登陆，退出）
+
+3.TypeScript = type+js
+是JS的超集，运行的时候，需要先编译成JS文件
+webpackage打包工具
+
+
+package.json里面定义引用包的名字和版本号
+
+插值绑定{{}}
+属性绑定[] 自上而下传递
+事件绑定() 自下而上传递
+双向绑定[(ngModel)]
+
+
+
+多线程
+1.进程和线程的区别：一个exe就是一个进程，一个进程里面可以有一个或多个线程，每个进程都有自己独立的资源和空间，进程之间不能共享资源和数据，但是进程里面的线程可以共享资源和数据。线程是操作系统调度的基本单元。线程是在CPU核心和CPU寄存器中运行的，如果是单核CPU，那么一次只能运行一个线程。
+Thread thread = new Thread(new ThreadStart(method));不带参数
+thread.Start();
+Thread thread = new Thread(new ParameterThreadStart(method)); 带参数
+thread.Start(new object());
+2.前端线程：只有所有的前端线程都结束，程序才能结束，默认情况下创建的线程都是前端线程。只要所有的前端线程都结束了，后端线程就会自动结束。通过thread.IsBackground来设置后端线程。
+后台线程：一般用来处理不重要的事情，应用程序结束时，后台线程是否执行对整个程序没有影响。
+
+
+GC
+以程序的root为基础，遍历应用程序在堆上动态分配的所有对象，通过识别他们是否被引用来确定哪些对象已经死亡，哪些让需要被用。已经不被应用程序root或别的对象引用的对象就是已经死亡的对象就是所谓的垃圾，需要被回收。为了实现这个原理CG有很多中算法，最常见的就是mark sweep（标记压缩算法）
+标记压缩算法：阶段一，标记清楚阶段，就是先假设堆上面所有的对象都是可以回收的，然后找出不能回收的对象，做上标记，最后堆上面没有被标记的对象都是可以被回收的。
+阶段二，压缩阶段，对象回收之后堆上的空间变的不连续，重新移动这些对象，让他们从堆的基址开重新变的连续，类似磁盘碎片整理。
+堆中对象的引用关系错综复杂，形成复杂的图表，roots是CLR在堆中的入口点。
+
+GC只能回收托管资源，不能回收非托管资源
+托管资源和非托管资源
+托管资源是.net可以自动进行回收的资源，主要是指在托管堆上面分配的资源，该资源的回收是不需要人工干预的，由.net运行库在合适的时候进行回收。
+非托管资源是.net不能自行回收的资源，最常见的一类资源是包装操作系统资源的对象，例如文件，窗口，网络，数据库连接，可以将非托管资源放到析构函数里面调用并进行回收
+但是不能在析构函数里面回收托管资源，因为在调用析构函数之前，可能该资源已经被垃圾回收器回收。非托管资源的类都应该继承IDisposable接口。
+
+GC什么时候进行垃圾回收
+1.调用system.GC()的时候触发
+2.Eden区和From Survivor区满时
+3.老年代控件不足时
+4.方法区空间不足时
+5.通过Minor GC进入到老年代的的平均大小大于老年代的可用内存时
+6.有Eden区，From Survivor区向To space区赋值时，对象大小大于To Space的内存，则该对象转存到老年区，但是老年区的内存小于该对象的空间。
+
+内存泄漏是指从root中可以找到该对象，但是该对象是无用的，永远不会被回收。
+内存溢出是指程序申请内存空间的时候，内存空间不够了
+避免以上两种错误的方式
+1.尽早释放无用的对象，不用的时候设置为null
+2.进行字符串处理时，使用stringbuilder代替string
+3.尽少使用静态变量，因为静态变量GC不会回收
+4.避免集中创建对象，比如在for循环中创建对象
+5.尽量使用对象池来提高系统的性能
+6.不要在经常使用的方法中创建对象，可以使用hashtable创建对象
+
+
+栈先进后出，地址是从高地址往低地址分配
+堆先进先出，地址是从低往高分配
+
+.net中的所有资源都是直接或者间接从system.object派生的
+
+
+.net framework和.net core的区别
+.net有三部分组成，.net framework, Xamarin和.net core。Xamarin主要是用来构建APP的，主要语言是C#；.net framework可以创建windows应用程序和web applicaton，比如winform, wpf, web方向的就是asp.net mvc；.net core是微软推出的新的开源的，跨平台的框架，用它创建的应用可以运行在MAC和linux系统上面。
+.net core的优点：.net core和.net frame的性能是差几个数量级的
+
+
+
+递归算法菲波那列数：
+static int function(int n)
+{
+	int result;
+	if (n < 3)
+	{
+		result = 1;
+	}
+	else
+	{
+		result = function(n - 1) + function(n - 2);
+	}
+
+	return result;
+}
+
+
+sql性能调优：
+1.减少数据的访问，就是给表加索引，不要查询的时候全表扫描
+聚集索引：像我们的字典一样，某个字段按照一定的顺序排列，所以一个表只能有一个聚集索引。
+非聚集索引：就像我们的字典中按照偏旁查找字一样，不会对数据重新组织或者排序，用指针来指向先后的位置，一个表里面可以有多个非聚集索引，每个非聚集索引列的不同提供不同的排序。
+
+2.减少数据的输出，分页和返回需要的字段，这就联系到了sql分页查询
+declare @pageSize int
+declare @pageIndex int
+set @pageSize = 1
+set @pageIndex = 2
+select top (@pageSize) * from (select ROW_NUMBER() over(order by id asc) as rownumber, * from [User]) temp where rownumber>(@pageIndex-1)*@pageSize
+3.减少交互的次数，比如批量访问数据库
+比如项目中用了SqlBulkCopy
+4.减少cpu的开销，比如说不要在sql里面实现复杂的运算
+
+
+结构和类的区别
+1. 定义的语法不同，类是用class定义，而结构是用struct定义。但是在类里面声明的字段可以同时赋值，而结构里面声明的字段不能赋值。
+2. 结构是值类型，类是引用类型，结构存在栈中，类存在堆中，所以对于轻量级的对象用结构更好，重量级的对象用类更好。
+
+
+接口和抽象类的区别和怎么选择
+抽象类：具备类的其他特性但是不能实例化，而且抽象类可以包含抽象方法，这是普通类不能的，抽象类可以派生自一个抽象类可以覆盖基类的抽象方法也可以不覆盖，如果不覆盖，则其派生类必须覆盖
+接口：中不能实例化，包含没有实现的方法。接口中还可以包含属性，索引器和事件，而且都是定义为公有的，不能包含常量，域，构造函数，析构函数和静态成员。一个类可以继承多个接口，但是只能继承一个类或者抽象类。
+区别：抽象类更多的是定义在一系列紧密相关的类间，而接口只是一个行为规范或者规定，大多数都是关系松散用来实现某一类功能。一个类可以实现若干接口但只能扩展一个父类。如果要创建组件的多个版本，则创建抽象类，如果创建的功能将在大范围的全异对象间使用，则使用接口
+例子：飞机会飞，鸟会飞，他们都继承了同一个接口“飞”；但是F22属于飞机抽象类，鸽子属于鸟抽象类。
+
+虚方法和抽象方法的区别：
+抽象方法只能声明在抽象类中，必须被子类重写，没有方法体
+虚方法有方法题，可以被子类重写也可以不重写
+
+
+C#默认定义的类是internal类型，方法和字段为private类型
+
+
+webform和mvc 的区别
+运行机制不同
+webform：1.首先浏览器向目的服务器发送请求报文 2. 服务器的IIS软件接收到请求之后，把请求交给.net framework来处理 3..net framework会创建Default_aspx类的对象，也就是我们说的页面对象 4.返回给浏览器html，css，js等
+MVC：1.浏览器向服务器发送request请求报文 2.服务器的IIS响应Request请求 3..net framework根据路由的配置，解析URL，创建FirstPage类，并调用相应的Default方法返回视图 4.然后访问视图文件夹下的default.cshtml，返回给浏览器。
+
+
+linq语句
+from st in Students join cl in Class on st.ClassID equals cl.ClassID
+select new {st.Name, cl.ClassName}
+
+lambda语句
+Students.Select(s=> new {s.Name, s.ClassID})
+
+
+委托的作用是什么
+委托通俗的说就是用来执行方法的一个东西，在使用委托的时候，你可以像对待类一样的对待它，即先声明再实例化。但是有点不同的是类实例化之后叫对象或实例，但是委托在实例化之后仍叫委托。
+
+IOC框架：Autofac，Unity
+
+
+WCF原数据的交换方式
+1.服务引用
+2.使用元数据实用工具svcutil.exe

@@ -1,0 +1,50 @@
+1。Jquery 语法
+2。选择器
+3。接口和抽象类的区别和怎么选择、
+4。js 事件冒泡
+5。js中继承
+6。sql分页查询
+7。结构和类的区别
+8。浏览器兼容问题
+9。mvc中参数怎么传到控制器的
+10。webform和mvc 的区别
+
+面试中 问到了有 gc垃圾回收机制 .net core和freamwork有什么区别 优势在哪里 然后就是递归 每家公司都有 这个是笔试题 而且每家公司还都一样 答案我是背下来的 斐波那契数列
+
+
+
+RPC
+IOC
+Memcached, Redis, MongoDB区别
+WCF数据交换方式
+MVC怎么向后端传递值
+virtual虚方法和abstract抽象方法的区别
+linq语句查询出user表里面的所有信息，查询出userinfo表中记录的数量
+lambda表达式
+
+怎样提高网页的访问速度
+wcf安全性
+简述wcf的endpoint
+webapi是什么
+wcf和webservice的区别
+webapi中怎么返回json对象
+怎么处理高并发
+get和post的区别
+mvc的运行机制
+gc的运行机制
+接口和类的区别
+查询一个表中第20条到第50条数据
+常见的设计模式，写出一种
+
+
+linq语句
+from st in Students join cl in Class on st.ClassID equals cl.ClassID
+select new {st.Name, cl.ClassName}
+
+lambda语句
+Students.Select(s=> new {s.Name, s.ClassID})
+
+
+ 
+
+
