@@ -185,3 +185,7 @@ EF CodeFirst和DBFirst
 IaaS：基础设施即服务  速冻饺子供应商，自己准备锅碗，餐桌
 PaaS：平台即服务   叫外卖，自己准备餐桌
 SaaS：软件即服务   直接去餐馆里面吃
+
+
+Redis: key-value数据库
+MongoDB：分布式文件存储的数据库
