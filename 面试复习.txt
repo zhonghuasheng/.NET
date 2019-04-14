@@ -25,7 +25,7 @@ package.json里面定义引用包的名字和版本号
 
 多线程
 1.进程和线程的区别：一个exe就是一个进程，一个进程里面可以有一个或多个线程，每个进程都有自己独立的资源和空间，进程之间不能共享资源和数据，但是进程里面的线程可以共享资源和数据。线程是操作系统调度的基本单元。线程是在CPU核心和CPU寄存器中运行的，如果是单核CPU，那么一次只能运行一个线程。
-Thread thread = new Thread(new ThreadStart(method));不带参数
+Thread thread = new  Thread(new ThreadStart(method));不带参数
 thread.Start();
 Thread thread = new Thread(new ParameterThreadStart(method)); 带参数
 thread.Start(new object());
@@ -48,7 +48,7 @@ GC只能回收托管资源，不能回收非托管资源
 GC什么时候进行垃圾回收
 1.调用system.GC()的时候触发
 2.Eden区和From Survivor区满时
-3.老年代控件不足时
+3.老年代空间不足时
 4.方法区空间不足时
 5.通过Minor GC进入到老年代的的平均大小大于老年代的可用内存时
 6.有Eden区，From Survivor区向To space区赋值时，对象大小大于To Space的内存，则该对象转存到老年区，但是老年区的内存小于该对象的空间。
@@ -101,7 +101,7 @@ sql性能调优：
 2.减少数据的输出，分页和返回需要的字段，这就联系到了sql分页查询
 declare @pageSize int
 declare @pageIndex int
-set @pageSize = 1
+set @pageSize = 10
 set @pageIndex = 2
 select top (@pageSize) * from (select ROW_NUMBER() over(order by id asc) as rownumber, * from [User]) temp where rownumber>(@pageIndex-1)*@pageSize
 3.减少交互的次数，比如批量访问数据库
@@ -122,7 +122,7 @@ select top (@pageSize) * from (select ROW_NUMBER() over(order by id asc) as rown
 
 虚方法和抽象方法的区别：
 抽象方法只能声明在抽象类中，必须被子类重写，没有方法体
-虚方法有方法题，可以被子类重写也可以不重写
+虚方法有方法体，可以被子类重写也可以不重写
 
 
 C#默认定义的类是internal类型，方法和字段为private类型
@@ -181,11 +181,23 @@ sql注入：把sql命名插入到Web表单提交请求的查询字符串，最�
 
 EF CodeFirst和DBFirst
 
-云计算的三个层次：基础设施（Infrastructure as a Service），平台（Platform as a Service），软件（Software as a Service）
+云计算的三个层次：基础设施即服务（Infrastructure as a Service），平台即服务（Platform as a Service），软件即服务（Software as a Service）
 IaaS：基础设施即服务  速冻饺子供应商，自己准备锅碗，餐桌
 PaaS：平台即服务   叫外卖，自己准备餐桌
 SaaS：软件即服务   直接去餐馆里面吃
 
-
+非关系型数据库
 Redis: key-value数据库
 MongoDB：分布式文件存储的数据库
+
+Web前端性能优化:
+1.减少HTTP请求
+2.使用CDN
+3.添加Expires头
+4.压缩组件
+5.将样式放在表头
+6.将脚本放到底部
+7.避免CSS表达式
+8.使用外部的JS和CSS文件（外部文件，浏览器有可能缓存下来该文件）
+9.减少DNS查找（减少主机名）
+10.避免重定向
