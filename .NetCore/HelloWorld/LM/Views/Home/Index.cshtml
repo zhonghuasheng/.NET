@@ -1,0 +1,12 @@
+﻿@model IEnumerable<LM.Models.Noodle>
+
+
+@foreach (var noodle in Model)
+{
+    <div>
+        <h2>@noodle.Name</h2>
+        <h3>@noodle.Price</h3>
+        <p>@noodle.ShotDescription</p>
+    </div>
+}
+
