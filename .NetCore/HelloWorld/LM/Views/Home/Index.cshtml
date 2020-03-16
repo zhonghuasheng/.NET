@@ -1,12 +1,21 @@
-﻿@model IEnumerable<LM.Models.Noodle>
+﻿@model LM.ViewModels.HomeViewModel
 
-
-@foreach (var noodle in Model)
+<h2>面条</h2>
+@foreach (var noodle in Model.Noodles)
 {
     <div>
         <h2>@noodle.Name</h2>
         <h3>@noodle.Price</h3>
         <p>@noodle.ShotDescription</p>
+    </div>
+}
+
+<h2>评价</h2>
+@foreach (var feedBack in Model.FeedBacks)
+{
+    <div>
+        <h2>@feedBack.Name</h2>
+        <h3>@feedBack.Message</h3>
     </div>
 }
 

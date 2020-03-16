@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using LM.Models;
 using Microsoft.AspNetCore.Mvc;
+using LM.ViewModels;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,21 +13,21 @@ namespace LM.controllers
     public class HomeController : Controller
     {
         private INoodleRepository _noodleRepository;
+        private IFeedBackRepository _feedBackRepository;
 
-        public HomeController(INoodleRepository noodleRepository)
+        public HomeController(INoodleRepository noodleRepository, IFeedBackRepository feedBackRepository)
         {
             _noodleRepository = noodleRepository;
+            _feedBackRepository = feedBackRepository;
         }
         public ActionResult Index()
         {
-            var noodels = _noodleRepository.GetAllNoodles();
-            return View(noodels);
-        }
-
-        //[Route("About")]
-        public string About()
-        {
-            return "hello about";
+            HomeViewModel viewModel = new HomeViewModel()
+            {
+                Noodles = _noodleRepository.GetAllNoodles().ToList(),
+                FeedBacks = _feedBackRepository.GetAllFeedBacks().ToList()
+            };
+            return View(viewModel);
         }
     }
 }

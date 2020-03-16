@@ -18,6 +18,7 @@ namespace LM
         {
             services.AddMvc();
             services.AddTransient<INoodleRepository, MockNoodleRepository>();
+            services.AddTransient<IFeedBackRepository, MockFeedBackRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
