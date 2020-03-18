@@ -11,5 +11,6 @@ namespace LM.Models
         public string Name { get; set; }
         public string ShotDescription { get; set; }
         public decimal Price { get; set; }
+        public bool? IsInStock { get; set; }
     }
 }
