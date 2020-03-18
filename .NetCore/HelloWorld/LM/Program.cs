@@ -7,6 +7,8 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using LM.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace LM
 {
@@ -14,7 +16,25 @@ namespace LM
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            //CreateWebHostBuilder(args).Build().Run();
+            var host = CreateWebHostBuilder(args).Build();
+
+            using (var scop = host.Services.CreateScope())
+            {
+                var services = scop.ServiceProvider;
+                try
+                {
+                    var context = services.GetRequiredService<AppDbContext>();
+                    DbInitializer.Seed(context);
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+
+            }
+
+            host.Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

@@ -19,7 +19,6 @@ namespace LM.Models
         [Required(ErrorMessage ="请留下你的邮箱")]
         [StringLength(50, ErrorMessage ="邮箱不能超过20个字")]
         [DataType(DataType.EmailAddress, ErrorMessage ="邮箱格式不正确")]
-        //[RegularExpression(@"")]
         public string Email { get; set; }
 
         [Required(ErrorMessage ="请留下你的评价")]
