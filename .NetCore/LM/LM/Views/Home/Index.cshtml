@@ -1,0 +1,34 @@
+﻿@model LM.ViewModels.HomeViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>产品列表</h2>
+@foreach (var noodle in Model.Noodles)
+{
+    <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="thumbnail">
+            <img src="@noodle.ImageUrl" alt=""/>
+            <div class="caption"> 
+                <h3 class="pull-right">$@noodle.Price</h3>
+                <h3><a>@noodle.Name</a></h3>
+                <p>@noodle.ShortDescription</p>
+            </div>
+        </div>
+    </div>
+}
+
+<h2>评价</h2>
+<div class="list-group">
+    @foreach (var feedBack in Model.FeedBacks)
+    {
+        <a class="list-group-item">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="list-group-item-heading">@feedBack.Name</h5>
+                <small class="pull-right">@feedBack.CreateDateUTC</small>
+            </div>
+            <p class="list-group-item-text">@feedBack.Message</p>
+        </a>
+    }
+</div>
+
