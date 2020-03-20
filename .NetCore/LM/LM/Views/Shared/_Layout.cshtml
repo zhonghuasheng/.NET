@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="~/content/site.css"/>
 </head>
 <body>
+    <nav>
+        <div class="container">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a asp-controller="Home" asp-action="Index" class="navbar-brand">正宗兰州拉面</a>
+                    </li>
+                    <li>
+                        <a asp-controller="FeedBack" asp-action="Index">意见反馈</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container body-content">
         <div class="row">
             @RenderBody()

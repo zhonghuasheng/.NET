@@ -29,5 +29,10 @@ namespace LM.controllers
             };
             return View(viewModel);
         }
+
+        public ActionResult Detail(int id)
+        {
+            return View(_noodleRepository.GetNoodleById(id));
+        }
     }
 }

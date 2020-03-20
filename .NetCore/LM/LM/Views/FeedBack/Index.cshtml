@@ -2,7 +2,6 @@
 @{
     ViewData["Title"] = "Index";
 }
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <form asp-action="Index" method="post" class="form-horizontal" role="form">
     <div asp-validation-summary="All"></div>
@@ -10,7 +9,7 @@
     <div>
         <label asp-for="Name">姓名</label>
         <div>
-            <input asp-for="Name"/>
+            <input asp-for="Name" />
             <span asp-validation-for="Name"></span>
         </div>
     </div>
@@ -18,7 +17,7 @@
     <div>
         <label asp-for="Email">邮箱</label>
         <div>
-            <input asp-for="Email"/>
+            <input asp-for="Email" />
             <span asp-validation-for="Email"></span>
         </div>
     </div>
@@ -32,7 +31,7 @@
     </div>
 
     <div>
-        <input type="submit" value="提交"/>
+        <input type="submit" value="提交" />
     </div>
 </form>
 

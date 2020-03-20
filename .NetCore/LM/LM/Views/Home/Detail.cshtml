@@ -1,0 +1,14 @@
+﻿@model LM.Models.Noodle
+
+<div>
+    <h1>@Model.Name</h1>
+</div>
+
+<div class="thumbnail">
+    <img class="img-thumbnail" src="@Model.ImageUrl"/>
+    <div class="caption-full">
+        <h3 class="pull-right">￥ @Model.Price</h3>
+        <h4>@this.Model.ShortDescription</h4>
+        <p>@this.Model.LongDescription</p>
+    </div>
+</div>
