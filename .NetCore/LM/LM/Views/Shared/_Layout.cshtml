@@ -18,6 +18,7 @@
                     <li>
                         <a asp-controller="FeedBack" asp-action="Index">意见反馈</a>
                     </li>
+                    <partial name="_LoginPartial">
                 </ul>
             </div>
         </div>
@@ -27,5 +28,7 @@
             @RenderBody()
         </div>
     </div>
+
+    @RenderSection("Scripts", required:false);
 </body>
 </html>
