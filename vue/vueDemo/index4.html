@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>todolist</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    
+    <body>
+        
+        <div id="root">
+            <div>
+                <input v-model="showValue"/>
+                <button @click='handleSubmit'>submit</button>
+            </div>
+            <div>
+                <ul>
+                    <todo-item v-for="(item, index) in list" :key="index" :content='item' :index='index' @delete='handelDelete'></todo-item>
+                </ul>
+            </div>
+        </div>
+        <script>
+            var com1 = {
+                props:['content','index'],
+                template:'<li @click="handleClick">{{content}}</li>',
+                methods:{
+                    handleClick: function(){
+                        this.$emit('delete', this.index)
+                    }
+                }
+            }
+            // Vue.component('toDo', {
+                    // props:['content'],
+                    // template:'<li>{{content}}</li>'
+            // })
+
+            new Vue({
+                el:'#root',
+                components:{
+                    'todo-item':com1
+                },
+                data:{
+                    showValue: '',
+                    list:[]
+                },
+                methods: {
+                    handleSubmit: function(){
+                        this.list.push(this.showValue);
+                        this.showValue='';
+                    },
+                    handelDelete: function(index){
+                        this.list.splice(index, 1);
+                    }
+                },
+            })
+        </script>
+    </body>
+</html>

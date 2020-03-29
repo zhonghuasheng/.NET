@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>v-if, v-show, v-for</title></title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    
+    <body>
+        
+        <div id="root">
+            <div v-show="show">hello world</div>
+            <button @click='hidenShow'>变化</button>
+            <ul>
+                <li v-for="(item, index) in list" :key="index">{{item}}</li>
+            </ul>
+        </div>
+        <script>
+            new Vue({
+                el:'#root',
+                data:{
+                    show: true,
+                    list:[1,2,3]
+                },
+                methods: {
+                    hidenShow: function(){
+                        this.show = !this.show;
+                    }
+                },
+            })
+        </script>
+    </body>
+</html>
