@@ -1,9 +1,0 @@
-E:\C#\EFTest\DBFirst\bin\Debug\DBFirst.exe.config
-E:\C#\EFTest\DBFirst\bin\Debug\DBFirst.exe
-E:\C#\EFTest\DBFirst\bin\Debug\DBFirst.pdb
-E:\C#\EFTest\DBFirst\bin\Debug\EntityFramework.dll
-E:\C#\EFTest\DBFirst\bin\Debug\EntityFramework.xml
-E:\C#\EFTest\DBFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
-E:\C#\EFTest\DBFirst\obj\Debug\DBFirst.csprojResolveAssemblyReference.cache
-E:\C#\EFTest\DBFirst\obj\Debug\DBFirst.exe
-E:\C#\EFTest\DBFirst\obj\Debug\DBFirst.pdb

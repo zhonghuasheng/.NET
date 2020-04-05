@@ -1,5 +1,0 @@
-E:\C#\事件委托\事件委托\委托和方法的异步调用\bin\Debug\委托和方法的异步调用.exe
-E:\C#\事件委托\事件委托\委托和方法的异步调用\bin\Debug\委托和方法的异步调用.pdb
-E:\C#\事件委托\事件委托\委托和方法的异步调用\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\C#\事件委托\事件委托\委托和方法的异步调用\obj\x86\Debug\委托和方法的异步调用.exe
-E:\C#\事件委托\事件委托\委托和方法的异步调用\obj\x86\Debug\委托和方法的异步调用.pdb

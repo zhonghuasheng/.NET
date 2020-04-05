@@ -1,8 +1,0 @@
-E:\C#\网络通信编程\01基本网络通信\02DNS\bin\Debug\02DNS.exe
-E:\C#\网络通信编程\01基本网络通信\02DNS\bin\Debug\02DNS.pdb
-E:\C#\网络通信编程\01基本网络通信\02DNS\obj\x86\Debug\_02DNS.Form1.resources
-E:\C#\网络通信编程\01基本网络通信\02DNS\obj\x86\Debug\_02DNS.Properties.Resources.resources
-E:\C#\网络通信编程\01基本网络通信\02DNS\obj\x86\Debug\02DNS.csproj.GenerateResource.Cache
-E:\C#\网络通信编程\01基本网络通信\02DNS\obj\x86\Debug\02DNS.exe
-E:\C#\网络通信编程\01基本网络通信\02DNS\obj\x86\Debug\02DNS.pdb
-E:\C#\网络通信编程\01基本网络通信\02DNS\obj\x86\Debug\02DNS.csprojResolveAssemblyReference.cache

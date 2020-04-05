@@ -1,5 +1,0 @@
-E:\C#\事件委托\事件委托\事件委托\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\C#\事件委托\事件委托\事件委托\bin\Debug\事件委托.exe
-E:\C#\事件委托\事件委托\事件委托\bin\Debug\事件委托.pdb
-E:\C#\事件委托\事件委托\事件委托\obj\x86\Debug\事件委托.exe
-E:\C#\事件委托\事件委托\事件委托\obj\x86\Debug\事件委托.pdb

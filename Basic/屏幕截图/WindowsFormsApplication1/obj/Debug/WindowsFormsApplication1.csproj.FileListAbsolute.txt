@@ -1,7 +1,0 @@
-E:\C#\屏幕截图\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
-E:\C#\屏幕截图\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
-E:\C#\屏幕截图\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
-E:\C#\屏幕截图\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
-E:\C#\屏幕截图\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
-E:\C#\屏幕截图\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
-E:\C#\屏幕截图\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

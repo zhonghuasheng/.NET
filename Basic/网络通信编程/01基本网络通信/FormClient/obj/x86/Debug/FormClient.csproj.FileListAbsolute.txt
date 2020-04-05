@@ -1,7 +1,0 @@
-E:\C#\网络通信编程\01基本网络通信\FormClient\bin\Debug\FormClient.exe
-E:\C#\网络通信编程\01基本网络通信\FormClient\bin\Debug\FormClient.pdb
-E:\C#\网络通信编程\01基本网络通信\FormClient\obj\x86\Debug\FormClient.FormClient.resources
-E:\C#\网络通信编程\01基本网络通信\FormClient\obj\x86\Debug\FormClient.Properties.Resources.resources
-E:\C#\网络通信编程\01基本网络通信\FormClient\obj\x86\Debug\FormClient.csproj.GenerateResource.Cache
-E:\C#\网络通信编程\01基本网络通信\FormClient\obj\x86\Debug\FormClient.exe
-E:\C#\网络通信编程\01基本网络通信\FormClient\obj\x86\Debug\FormClient.pdb

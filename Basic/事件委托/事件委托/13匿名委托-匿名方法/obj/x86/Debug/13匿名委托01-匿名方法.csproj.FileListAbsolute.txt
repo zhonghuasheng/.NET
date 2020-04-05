@@ -1,5 +1,0 @@
-E:\C#\事件委托\事件委托\13匿名委托-匿名方法\bin\Debug\13匿名委托-匿名方法.exe
-E:\C#\事件委托\事件委托\13匿名委托-匿名方法\bin\Debug\13匿名委托-匿名方法.pdb
-E:\C#\事件委托\事件委托\13匿名委托-匿名方法\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\C#\事件委托\事件委托\13匿名委托-匿名方法\obj\x86\Debug\13匿名委托-匿名方法.exe
-E:\C#\事件委托\事件委托\13匿名委托-匿名方法\obj\x86\Debug\13匿名委托-匿名方法.pdb

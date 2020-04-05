@@ -1,5 +1,0 @@
-E:\C#\事件委托\事件委托\10异常处理\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\C#\事件委托\事件委托\10异常处理\bin\Debug\10异常处理.exe
-E:\C#\事件委托\事件委托\10异常处理\bin\Debug\10异常处理.pdb
-E:\C#\事件委托\事件委托\10异常处理\obj\x86\Debug\10异常处理.exe
-E:\C#\事件委托\事件委托\10异常处理\obj\x86\Debug\10异常处理.pdb

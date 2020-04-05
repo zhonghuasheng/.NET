@@ -1,6 +1,0 @@
-E:\C#\WPF\EFTest\UserService\bin\Debug\UserService.exe.config
-E:\C#\WPF\EFTest\UserService\bin\Debug\UserService.exe
-E:\C#\WPF\EFTest\UserService\bin\Debug\UserService.pdb
-E:\C#\WPF\EFTest\UserService\obj\Debug\UserService.csprojResolveAssemblyReference.cache
-E:\C#\WPF\EFTest\UserService\obj\Debug\UserService.exe
-E:\C#\WPF\EFTest\UserService\obj\Debug\UserService.pdb

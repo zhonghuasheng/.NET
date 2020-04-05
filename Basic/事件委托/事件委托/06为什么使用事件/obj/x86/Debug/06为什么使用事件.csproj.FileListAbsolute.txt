@@ -1,5 +1,0 @@
-E:\C#\事件委托\事件委托\06为什么使用事件\bin\Debug\06为什么使用事件.exe
-E:\C#\事件委托\事件委托\06为什么使用事件\bin\Debug\06为什么使用事件.pdb
-E:\C#\事件委托\事件委托\06为什么使用事件\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\C#\事件委托\事件委托\06为什么使用事件\obj\x86\Debug\06为什么使用事件.exe
-E:\C#\事件委托\事件委托\06为什么使用事件\obj\x86\Debug\06为什么使用事件.pdb

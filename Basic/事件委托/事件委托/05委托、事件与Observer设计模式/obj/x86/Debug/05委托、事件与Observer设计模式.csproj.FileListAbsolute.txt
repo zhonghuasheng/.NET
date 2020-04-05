@@ -1,5 +1,0 @@
-E:\C#\事件委托\事件委托\05委托、事件与Observer设计模式\bin\Debug\05委托、事件与Observer设计模式.exe
-E:\C#\事件委托\事件委托\05委托、事件与Observer设计模式\bin\Debug\05委托、事件与Observer设计模式.pdb
-E:\C#\事件委托\事件委托\05委托、事件与Observer设计模式\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\C#\事件委托\事件委托\05委托、事件与Observer设计模式\obj\x86\Debug\05委托、事件与Observer设计模式.exe
-E:\C#\事件委托\事件委托\05委托、事件与Observer设计模式\obj\x86\Debug\05委托、事件与Observer设计模式.pdb
