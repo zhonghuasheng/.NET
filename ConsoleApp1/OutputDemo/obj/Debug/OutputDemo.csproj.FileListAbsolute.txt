@@ -1,7 +1,0 @@
-C:\Users\Ant\Desktop\.NET\ConsoleApp1\OutputDemo\bin\Debug\OutputDemo.exe.config
-C:\Users\Ant\Desktop\.NET\ConsoleApp1\OutputDemo\bin\Debug\OutputDemo.exe
-C:\Users\Ant\Desktop\.NET\ConsoleApp1\OutputDemo\bin\Debug\OutputDemo.pdb
-C:\Users\Ant\Desktop\.NET\ConsoleApp1\OutputDemo\obj\Debug\OutputDemo.csprojAssemblyReference.cache
-C:\Users\Ant\Desktop\.NET\ConsoleApp1\OutputDemo\obj\Debug\OutputDemo.csproj.CoreCompileInputs.cache
-C:\Users\Ant\Desktop\.NET\ConsoleApp1\OutputDemo\obj\Debug\OutputDemo.exe
-C:\Users\Ant\Desktop\.NET\ConsoleApp1\OutputDemo\obj\Debug\OutputDemo.pdb
