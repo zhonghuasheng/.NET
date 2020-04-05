@@ -1,9 +1,0 @@
-E:\C#\GDI+\渐变图形\bin\Debug\渐变图形.exe
-E:\C#\GDI+\渐变图形\bin\Debug\渐变图形.pdb
-E:\C#\GDI+\渐变图形\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\C#\GDI+\渐变图形\obj\x86\Debug\渐变图形.Form1.resources
-E:\C#\GDI+\渐变图形\obj\x86\Debug\渐变图形.Properties.Resources.resources
-E:\C#\GDI+\渐变图形\obj\x86\Debug\GenerateResource.read.1.tlog
-E:\C#\GDI+\渐变图形\obj\x86\Debug\GenerateResource.write.1.tlog
-E:\C#\GDI+\渐变图形\obj\x86\Debug\渐变图形.exe
-E:\C#\GDI+\渐变图形\obj\x86\Debug\渐变图形.pdb

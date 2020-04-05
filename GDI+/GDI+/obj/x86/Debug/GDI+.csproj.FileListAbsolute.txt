@@ -1,9 +1,0 @@
-E:\C#\GDI+\GDI+\bin\Debug\GDI+.exe
-E:\C#\GDI+\GDI+\bin\Debug\GDI+.pdb
-E:\C#\GDI+\GDI+\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\C#\GDI+\GDI+\obj\x86\Debug\GDI_.Form1.resources
-E:\C#\GDI+\GDI+\obj\x86\Debug\GDI_.Properties.Resources.resources
-E:\C#\GDI+\GDI+\obj\x86\Debug\GenerateResource.read.1.tlog
-E:\C#\GDI+\GDI+\obj\x86\Debug\GenerateResource.write.1.tlog
-E:\C#\GDI+\GDI+\obj\x86\Debug\GDI+.exe
-E:\C#\GDI+\GDI+\obj\x86\Debug\GDI+.pdb

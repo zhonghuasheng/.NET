@@ -1,9 +1,0 @@
-E:\C#\GDI+\统计图\bin\Debug\统计图.exe
-E:\C#\GDI+\统计图\bin\Debug\统计图.pdb
-E:\C#\GDI+\统计图\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\C#\GDI+\统计图\obj\x86\Debug\统计图.Form1.resources
-E:\C#\GDI+\统计图\obj\x86\Debug\统计图.Properties.Resources.resources
-E:\C#\GDI+\统计图\obj\x86\Debug\GenerateResource.read.1.tlog
-E:\C#\GDI+\统计图\obj\x86\Debug\GenerateResource.write.1.tlog
-E:\C#\GDI+\统计图\obj\x86\Debug\统计图.exe
-E:\C#\GDI+\统计图\obj\x86\Debug\统计图.pdb

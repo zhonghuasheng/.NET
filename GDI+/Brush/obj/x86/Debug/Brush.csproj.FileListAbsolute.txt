@@ -1,9 +1,0 @@
-E:\C#\GDI+\Brush\bin\Debug\Brush.exe
-E:\C#\GDI+\Brush\bin\Debug\Brush.pdb
-E:\C#\GDI+\Brush\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\C#\GDI+\Brush\obj\x86\Debug\Brush0.Form1.resources
-E:\C#\GDI+\Brush\obj\x86\Debug\Brush0.Properties.Resources.resources
-E:\C#\GDI+\Brush\obj\x86\Debug\GenerateResource.read.1.tlog
-E:\C#\GDI+\Brush\obj\x86\Debug\GenerateResource.write.1.tlog
-E:\C#\GDI+\Brush\obj\x86\Debug\Brush.exe
-E:\C#\GDI+\Brush\obj\x86\Debug\Brush.pdb
