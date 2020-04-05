@@ -34,7 +34,7 @@
                     // template:'<li>{{content}}</li>'
             // })
 
-            new Vue({
+            var vm = new Vue({
                 el:'#root',
                 components:{
                     'todo-item':com1
@@ -52,6 +52,11 @@
                         this.list.splice(index, 1);
                     }
                 },
+            })
+
+            vm.$data.showValue='123'
+            vm.$watch('showValue', function(newVal1, oldVal1){
+                alert(newVal1 + oldVal1);
             })
         </script>
     </body>
