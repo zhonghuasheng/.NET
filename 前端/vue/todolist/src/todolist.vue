@@ -13,7 +13,7 @@
 <script>
 import todoitem from './components/todoitem'
 export default {
-  components:{
+  components: {
     'todo-item': todoitem
   },
   data () {
@@ -23,14 +23,14 @@ export default {
     }
   },
   methods: {
-      handleSubmit () { 
-        this.list.push(this.inputvalue);
-        this.inputvalue='';
-      },
-      handelDel(index){
-        this.list.splice(index, 1);
-      }
+    handleSubmit () {
+      this.list.push(this.inputvalue)
+      this.inputvalue = ''
+    },
+    handelDel (index) {
+      this.list.splice(index, 1)
     }
+  }
 }
 </script>
 

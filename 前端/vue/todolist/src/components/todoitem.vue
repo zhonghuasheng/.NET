@@ -4,9 +4,9 @@
 
 <script>
 export default {
-  props:['content','index'],
-  methods:{
-    handleDel(){
+  props: ['content', 'index'],
+  methods: {
+    handleDel () {
       this.$emit('delete', this.index)
     }
   }
